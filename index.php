@@ -126,7 +126,7 @@ include './language/' . $lang_user . '.php';
                                 <h2>Angelo Parziale</h2>
                                 <span>Web Developer</span>
                                 <p><?php echo INTRODUCTION ?></p>
-                                <a href="#" class="btn waves-effect">Download CV</a>
+                                <a href="resource/cv.pdf" download="" class="btn waves-effect">Download CV</a>
                                 <a href="#contact-form" class="btn btn-success waves-effect">Contact Me</a>
                             </div>
                         </div>
