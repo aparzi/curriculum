@@ -88,18 +88,19 @@ include './language/' . $lang_user . '.php';
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
                                     <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#blog">Blog</a></li>
                                     <li><a href="#education">Education</a></li>
                                     <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
+                                    <li style="border-left: solid 1px; border-color: #000;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
+                                <!-- NAVBAR SMARTPHONE -->
                                 <ul class="side-nav" id="slide-out">
                                     <li><a href="#header-bottom" class="active">Home</a></li>
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
                                     <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#blog">Blog</a></li>
                                     <li><a href="#education">Education</a></li>
                                     <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
+                                    <li style="border-top: solid 1px; border-color: #000; width: 100%;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
                                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                             </nav>
