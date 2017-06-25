@@ -295,117 +295,44 @@ include './language/' . $lang_user . '.php';
                         <div class="blog">
                             <div class="col m4 s12 blog-post wow fadeIn a2" data-wow-delay="0.2s">
                                 <div class="thumbnail z-depth-1 animated">
-                                    <a href="blog-full-post.php"><img src="assets/images/b-1.jpg" alt="" class="responsive-img"></a>
+                                    <img src="assets/images/postman.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-1">
-                                            <a href="blog-full-post.php">
-                                                <h2>Website Design</h2>
-                                                <span>branding, ui-ux, article</span>
+                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/22/postman/">
+                                                <h2>Postman</h2>
+                                                <span>Tool per testing API</span>
                                             </a>
                                         </div>
-                                        <div class="post-details">
+                                        <!--<div class="post-details">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Aliquam ornare arcu ac velit ultricies fermentum.
                                                 Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a3" data-wow-delay="0.3s">
+                            <div class="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
                                 <div class="thumbnail z-depth-1">
-                                    <a href="blog-full-post.php"><img src="assets/images/b-2.jpg" alt="" class="responsive-img"></a>
+                                    <img src="assets/images/composer_img.png" alt="composer logo" class="responsive-img">
                                     <div class="blog-details">
-                                        <div class="post-title" id="blog-post-2">
-                                            <a href="blog-full-post.php">
-                                                <h2>Website Redesign</h2>
-                                                <span>branding, ui-ux, article</span>
+                                        <div class="post-title" id="blog-post-4">
+                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/21/composer-addio-problemi-di-dipendenze/">
+                                                <h2>Composer</h2>
+                                                <span>Dependency management in PHP</span>
                                             </a>
-                                        </div>
-                                        <div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a4" data-wow-delay="0.4s">
-                                <div class="thumbnail z-depth-1">
-                                    <a href="blog-full-post.html"><img src="assets/images/b-4.jpg" alt="" class="responsive-img"></a>
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-3">
-                                            <a href="blog-full-post.html">
-                                                <h2>Music Player Design</h2>
-                                                <span>branding, ui-ux, article</span>
-                                            </a>
-                                        </div>
-                                        <div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col m4 s12 blog-post wow fadeIn a5" data-wow-delay="0.5s">
                                 <div class="thumbnail z-depth-1">
-                                    <a href="blog-full-post.html"><img src="assets/images/b-3.jpg" alt="" class="responsive-img"></a>
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-4">
-                                            <a href="blog-full-post.html">
-                                                <h2>Marketing Partner</h2>
-                                                <span>branding, ui-ux, article</span>
-                                            </a>
-                                        </div>
-                                        <div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a6" data-wow-delay="0.6s">
-                                <div class="thumbnail z-depth-1">
-                                    <a href="blog-full-post.html"><img src="assets/images/b-5.jpg" alt="" class="responsive-img"></a>
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-6">
-                                            <a href="blog-full-post.html">
-                                                <h2>Marketing Partner</h2>
-                                                <span>branding, ui-ux, article</span>
-                                            </a>
-                                        </div>
-                                        <div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
-                                <div class="thumbnail z-depth-1">
-                                    <a href="blog-full-post.html"><img src="assets/images/b-6.jpg" alt="" class="responsive-img"></a>
+                                    <img src="assets/images/slim_logo.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-5">
-                                            <a href="blog-full-post.html">
-                                                <h2>Web development </h2>
-                                                <span>branding, ui-ux, article</span>
+                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/17/slim-framework/">
+                                                <h2>Slim Framework</h2>
+                                                <span>Framework PHP leggero e snello</span>
                                             </a>
-                                        </div>
-                                        <div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -526,7 +453,16 @@ include './language/' . $lang_user . '.php';
         <!-- wow js-->
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/init.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+            ga('create', 'UA-58052891-2', 'auto');
+            ga('send', 'pageview');
+
+        </script>
         <!-- =========================================================
             STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
         ===========================================================-->
