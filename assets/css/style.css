@@ -184,10 +184,10 @@ h1 {
 */
 #header-top {
   min-height: 100px;
-  background: #0397e2;
+  /*background: #0397e2;*/
 }
 #header-top .top-contact {
-  margin: 20px;
+  margin: 20px 20px 20px 0;
   color: #000;
   opacity: 0.5;
 }
@@ -326,10 +326,10 @@ nav .button-collapse i {
   margin-bottom: 25px;
 }
 #about .intro-content p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 27px;
   opacity: 0.7;
-  padding: 0 90px;
+
   margin-bottom: 40px;
 }
 #about .intro-content .btn {
@@ -1055,4 +1055,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
   .cbp-rfgrid li {
     width: 100%;
   }
+}
+
+div#kit h5,ul {
+  /*text-align: left;*/
 }
