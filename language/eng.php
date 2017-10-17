@@ -13,7 +13,7 @@ define("INTRODUCTION",
 /************************* SECTION + CURRICULUM PAGE ************************************/
 define("WORK_EXPERIENCE", "Work Experience");
 define("CONTACT", "Contact");
-define("PROGRAMMING_LANGUAGE", "Programming Language");
+define("PROGRAMMING_LANGUAGE", "Languages &amp; Frameworks");
 define("TITLE_WORK_1", "Ricormind-Bot");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_WORK_3", "The university project 'Here I'm'");

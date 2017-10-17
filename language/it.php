@@ -5,15 +5,18 @@ define("WORKS", "LAVORI");
 define("CONTACT_ME", "CONTATTI");
 /************************** INTRODUZIONE ********************************/
 define("INTRODUCTION",
-        'Mi chiamo Angelo Parziale e sono uno sviluppatore software.
-        Conosco diversi linguaggi di programmazione soprattutto per lo sviluppo del web, sia front-end che back-end.
-        So lavorare utilizzando cms, (Content Managment System), come Wordpress, Joomla ma anche Prestashop e Magento.
-        Spero troviate il mio profilo interessante e che non esitiate a contattarmi.');
+        "Mi chiamo Angelo Parziale e sono uno sviluppatore web e mobile.
+        Per quanto riguarda lo sviluppo web lavoro sia lato front-end, sfruttando lo stack tecnologico javascript, che 
+        lato back-end, in questo caso utilizzo molto i framework php oppure php classico orientato agli oggetti, in alcuni casi
+        ho utilizzato anche javascript lato server (Nodejs).
+        Per il mondo mobile sviluppo sia app native facendo uso del framework ionic2 ma anche app native sviluppando in android.
+        Sul mio carattere che dire...Sono un ragazzo che ama relazionarsi con le persone, quindi potete contattarmi non solo per questioni lavorative
+        ma anche per stringere un nuovo rapporto d'amicizia. 😃");
 
 /************************* SECTION + CURRICULUM PAGE ************************************/
 define("WORK_EXPERIENCE", "Esperienze Lavorative");
 define("CONTACT", "Contatti");
-define("PROGRAMMING_LANGUAGE", "Linguaggi di Programmazione");
+define("PROGRAMMING_LANGUAGE", "Linguaggi &amp; Framework");
 define("TITLE_WORK_1", "Ricormind-Bot");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_WORK_3", "Progetto Universitario 'Here I'm'");
