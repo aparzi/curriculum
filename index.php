@@ -133,7 +133,7 @@ include './language/' . $lang_user . '.php';
                                 <p>
                                     <?php echo INTRODUCTION ?>
                                 </p>
-                                <h5 style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i>Equipaggiamento Personale</b></h5>
+                                <h5 style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i><?php echo MY_EQUIPMENT?></b></h5>
                                 <div class="responsive">
                                 <table class="table">
                                     <tbody>
@@ -141,8 +141,7 @@ include './language/' . $lang_user . '.php';
                                         <td style="border-top: none; border-bottom: 1px solid;">
                                             <img style="float: left; padding-right: 15px;" src="assets/images/kit/jet_brains_logo.png" alt="JetBrains Logo">
                                             <p style="margin-bottom: 20px;">
-                                                Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, ho avuto la fortuna di usare
-                                                i loro prodotti e non ne ho potuto pi&ugrave; fare a meno. I miei preferiti sono <b>PhpStorm</b>, <b>IntelliJ Idea</b> ed <b>Android Studio</b>.
+                                                <?php echo JETBRAINS ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -150,7 +149,7 @@ include './language/' . $lang_user . '.php';
                                         <td style="border-top: none; border-bottom: 1px solid;">
                                             <img style="float: left; padding-right: 15px;" src="assets/images/kit/github.png" alt="Git Logo">
                                             <p style="padding-top: 20px; margin-bottom: 20px;">
-                                                Ogni mio progetto inizia con il comando: <code>git init</code>. Utilizzo git da linea di comando e la sua interfaccia web <b>github</b>.
+                                                <?php echo GIT ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -158,8 +157,7 @@ include './language/' . $lang_user . '.php';
                                         <td style="border-top: none; border-bottom: 1px solid;">
                                             <img style="float: left; padding-right: 15px; padding-top: 15px;" src="assets/images/kit/linux.png" alt="Linux Logo">
                                             <p style="padding-top: 20px; margin-bottom: 20px;">
-                                                Sono ormai pi&ugrave; di quattro anni che sono passato nel magico mondo del pinguino 🐧 abbandonando
-                                                windows. Mi diverto a provare le varie distro Linux, ma lavoro completamente con <b>Ubuntu</b> mentre le altre mi diverto a sperimentarle.
+                                                <?php echo LINUX ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -300,7 +298,9 @@ include './language/' . $lang_user . '.php';
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="https://telegram.me/ricormindbot"><h2><?php echo TITLE_WORK_1 ?></h2></a>
+                                <a href="https://telegram.me/ricormindbot"><h2><?php echo TITLE_WORK_1 ?></h2>
+
+                                </a>
                                 <span>2017</span>
                                 <p><?php echo DESCRIPTION_WORK1 ?></p>
                             </div> <!-- cd-timeline-content -->
@@ -359,7 +359,7 @@ include './language/' . $lang_user . '.php';
                         <div class="blog">
                             <div class="col m4 s12 blog-post wow fadeIn a2" data-wow-delay="0.2s">
                                 <div class="thumbnail z-depth-1 animated">
-                                    <img src="assets/images/postman.png" alt="" class="responsive-img">
+                                    <img src="assets/images/blog/postman.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-1">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/22/postman/">
@@ -377,7 +377,7 @@ include './language/' . $lang_user . '.php';
                             </div>
                             <div class="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
                                 <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/composer_img.png" alt="composer logo" class="responsive-img">
+                                    <img src="assets/images/blog/composer_img.png" alt="composer logo" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-4">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/21/composer-addio-problemi-di-dipendenze/">
@@ -390,7 +390,7 @@ include './language/' . $lang_user . '.php';
                             </div>
                             <div class="col m4 s12 blog-post wow fadeIn a5" data-wow-delay="0.5s">
                                 <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/slim_logo.png" alt="" class="responsive-img">
+                                    <img src="assets/images/blog/slim_logo.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-5">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/17/slim-framework/">
