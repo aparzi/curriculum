@@ -2,18 +2,27 @@
 /***************************** NAVBAR **************************************/
 define("ABOUT", "ABOUT");
 define("WORKS", "WORKS");
+define("EDUCATION", "EDUCATION");
 define("CONTACT_ME", "CONTACT");
+
 /************************** INTRODUZIONE ********************************/
 define("INTRODUCTION",
-       "I'm Angelo Parziale and I'm software developer."
-        . " I know different programming languages mostly languages for web development, both the front-end that the back-end."
-        . " I work using cms (Content Managment System), like Wordpress, Joomla, but also Prestashop and Magento."
-        . " I hope you find my profile interesting and that don't hesitate to contact me.");
+       "My name is Angelo Parziale and I'm a web and mobile developer. As for web work development work as a front-end, using javascript stack technology, 
+       which back-end, in this case I use a lot of php framework or php object-oriented, in some cases I also used javascript server side (Nodejs).
+       For mobile worlds, I develop native apps using the ionic2 framework but also native apps developing in android.
+       About my character that to say ... I'm a guy who loves to relate to people so you can contact me not only for work issues but also to build a new relationship of friendship. 😃");
+
+/************************* EQUIPAGGIAMENTO PERSONALE ************************************/
+define("MY_EQUIPMENT", "PERSONAL EQUIPMENT");
+define("JETBRAINS", "As a development environment (IDE) I use only JetBrains products, I was fortunate to use their products and I can't longer do without.
+                    My favorites are <b>PhpStorm</b>, <b>IntelliJ Idea</b> and <b>Android Studio</b>.");
+define("GIT", "Each of my projects begins with the command: <code>git init</code>. I use git from command line and its <b>github</b> web interface.");
+define("LINUX", "For four years now I use only the Linux operating system 🐧, I work with the <b>Ubuntu</b> distro. In my free time I enjoy testing all the other Linux distributions.");
 
 /************************* SECTION + CURRICULUM PAGE ************************************/
 define("WORK_EXPERIENCE", "Work Experience");
 define("CONTACT", "Contact");
-define("PROGRAMMING_LANGUAGE", "Programming Language");
+define("PROGRAMMING_LANGUAGE", "Languages &amp; Frameworks");
 define("TITLE_WORK_1", "Ricormind-Bot");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_WORK_3", "The university project 'Here I'm'");
@@ -39,8 +48,3 @@ define("DESCRIPTION_CERTIFICATE", "Completion of certificate in computer operato
 define("TITLE_UNIVERSITY", "UNIVERSITY OF MOLISE");
 define("DESCRIPTION_UNIVERSITY", "In the year 2014 I joined Molise University and currently I'm continuing my IT course.");
 
-/************************** CONTACTS PAGE *************************************/
-define("My_Address", "My Address");
-define("Mobile_Number", "Mobile Number");
-define("Request_Number", "Contact me in private");
-define("Text_on_AboutMe", "I love to work, I love computer science, I have always want to learn and discover new things. I always give 110%.");

@@ -16,9 +16,9 @@ include './language/' . $lang_user . '.php';
         <meta charset="utf-8">
 
         <!-- TITLE OF SITE -->
-        <title> www.angeloparziale.it </title>
+        <title> angeloparziale.it </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Materialize portfolio one page template, Using for personal website." />
+        <meta name="description" content="Curriculum di Angelo Parziale (AParzi)." />
         <meta name="keywords" content="cv, resume, portfolio, materialize, onepage, personal, blog" />
         <meta name="author" content="Angelo Parziale">
 
@@ -28,6 +28,17 @@ include './language/' . $lang_user . '.php';
         <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- JQUERY LIBRARY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- GOOGLE FONTS -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
@@ -50,15 +61,8 @@ include './language/' . $lang_user . '.php';
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <!--   COLOUR  -->
-        <link rel="stylesheet" href="assets/css/color/lime.css" title="lime">
-        <link rel="stylesheet" href="assets/css/color/red.css" title="red">
-        <link rel="stylesheet" href="assets/css/color/green.css" title="green">
-        <link rel="stylesheet" href="assets/css/color/purple.css" title="purple">
-        <link rel="stylesheet" href="assets/css/color/orange.css" title="orange">
-
-        <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
-        <link rel="stylesheet" href="assets/css/demo.css">
+        <!-- LOAD COLOUR CSS -->
+        <script src="assets/js/loadCss.js"></script>
     </head>
     <body>
         <!-- =========================================
@@ -70,7 +74,7 @@ include './language/' . $lang_user . '.php';
                     <div class="top-contact col m12 left">
                         <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
                         <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
-                        <span><i class="fa fa-envelope"></i> <a href="mailto:">angeloparziale94@gmail.com</a></span>
+                        <span><i class="fa fa-envelope"></i> <a style="color: white;" href="mailto:">angeloparziale94@gmail.com</a></span>
                     </div>
                 </div>
             </div>
@@ -123,10 +127,58 @@ include './language/' . $lang_user . '.php';
                             </div>
                         </div>
                         <div class="col m12 s12 co-centered wow fadeIn a2" data-wow-delay="0.2s">
-                            <div class="intro-content col m10 s12">
+                            <div class="intro-content col m11 s12">
                                 <h2>Angelo Parziale</h2>
-                                <span>Web Developer</span>
-                                <p><?php echo INTRODUCTION ?></p>
+                                <span>Web/Mobile Developer</span>
+                                <p>
+                                    <?php echo INTRODUCTION ?>
+                                </p>
+                                <h5 style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i><?php echo MY_EQUIPMENT?></b></h5>
+                                <div class="responsive">
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td style="border-top: none; border-bottom: 1px solid;">
+                                            <img style="float: left; padding-right: 15px;" src="assets/images/kit/jet_brains_logo.png" alt="JetBrains Logo">
+                                            <p style="margin-bottom: 20px;">
+                                                <?php echo JETBRAINS ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-top: none; border-bottom: 1px solid;">
+                                            <img style="float: left; padding-right: 15px;" src="assets/images/kit/github.png" alt="Git Logo">
+                                            <p style="padding-top: 20px; margin-bottom: 20px;">
+                                                <?php echo GIT ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border-top: none; border-bottom: 1px solid;">
+                                            <img style="float: left; padding-right: 15px; padding-top: 15px;" src="assets/images/kit/linux.png" alt="Linux Logo">
+                                            <p style="padding-top: 20px; margin-bottom: 20px;">
+                                                <?php echo LINUX ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+
+
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a style="cursor: pointer;" target="_blank" href="https://www.jetbrains.com/">
+
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+
+
+                                    </div>
+                                </div>
+
+
                                 <a href="resource/cv.pdf" download="" class="btn waves-effect">Download CV</a>
                                 <a href="#contact-form" class="btn btn-success waves-effect">Contact Me</a>
                             </div>
@@ -154,7 +206,7 @@ include './language/' . $lang_user . '.php';
                                     <div class="determinate"> 100% </div>
                                 </div>
 
-                                <span>HTML</span>
+                                <span>HTML5</span>
                                 <div class="progress">
                                     <div class="determinate"> 100%</div>
                                 </div>
@@ -168,26 +220,36 @@ include './language/' . $lang_user . '.php';
                                 <div class="progress">
                                     <div class="determinate">100%</div>
                                 </div>
-                            </div>
-                            <div class="skill-bar col m6 s6 wow fadeIn a2" data-wow-delay="0.2s">
-                                <span>REACTJS</span>
-                                <div class="progress">
-                                    <div class="determinate"> 100% </div>
-                                </div>
 
                                 <span>AJAX</span>
                                 <div class="progress">
                                     <div class="determinate"> 100%</div>
                                 </div>
-
-                                <span>JAVA</span>
+                            </div>
+                            <div class="skill-bar col m6 s6 wow fadeIn a2" data-wow-delay="0.2s">
+                                <span>SLIM</span>
                                 <div class="progress">
-                                    <div class="determinate">85%</div>
+                                    <div class="determinate"> 100%</div>
                                 </div>
 
-                                <span>C/C++</span>
+                                <span>LARAVEL</span>
                                 <div class="progress">
-                                    <div class="determinate">70%</div>
+                                    <div class="determinate">100%</div>
+                                </div>
+
+                                <span>REACTJS</span>
+                                <div class="progress">
+                                    <div class="determinate"> 90% </div>
+                                </div>
+
+                                <span>ANGULAR.JS</span>
+                                <div class="progress">
+                                    <div class="determinate">90%</div>
+                                </div>
+
+                                <span>SPRING BOOT</span>
+                                <div class="progress">
+                                    <div class="determinate">65%</div>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +298,9 @@ include './language/' . $lang_user . '.php';
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="https://telegram.me/ricormindbot"><h2><?php echo TITLE_WORK_1 ?></h2></a>
+                                <a href="https://telegram.me/ricormindbot"><h2><?php echo TITLE_WORK_1 ?></h2>
+
+                                </a>
                                 <span>2017</span>
                                 <p><?php echo DESCRIPTION_WORK1 ?></p>
                             </div> <!-- cd-timeline-content -->
@@ -295,7 +359,7 @@ include './language/' . $lang_user . '.php';
                         <div class="blog">
                             <div class="col m4 s12 blog-post wow fadeIn a2" data-wow-delay="0.2s">
                                 <div class="thumbnail z-depth-1 animated">
-                                    <img src="assets/images/postman.png" alt="" class="responsive-img">
+                                    <img src="assets/images/blog/postman.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-1">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/22/postman/">
@@ -313,7 +377,7 @@ include './language/' . $lang_user . '.php';
                             </div>
                             <div class="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
                                 <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/composer_img.png" alt="composer logo" class="responsive-img">
+                                    <img src="assets/images/blog/composer_img.png" alt="composer logo" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-4">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/21/composer-addio-problemi-di-dipendenze/">
@@ -326,7 +390,7 @@ include './language/' . $lang_user . '.php';
                             </div>
                             <div class="col m4 s12 blog-post wow fadeIn a5" data-wow-delay="0.5s">
                                 <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/slim_logo.png" alt="" class="responsive-img">
+                                    <img src="assets/images/blog/slim_logo.png" alt="" class="responsive-img">
                                     <div class="blog-details">
                                         <div class="post-title" id="blog-post-5">
                                             <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/17/slim-framework/">
@@ -349,7 +413,7 @@ include './language/' . $lang_user . '.php';
             <div class="container">
                 <div class="row">
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
-                        <h2> <i class="fa fa-graduation-cap"></i>Education</h2>
+                        <h2> <i class="fa fa-graduation-cap"></i><?php echo EDUCATION?></h2>
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
