@@ -92,7 +92,7 @@ include './language/' . $lang_user . '.php';
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
                                     <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#education"><?php echo EDUCATION ?></a></li>
                                     <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
                                     <li style="border-left: solid 1px; border-color: #000;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
@@ -102,7 +102,7 @@ include './language/' . $lang_user . '.php';
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
                                     <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#education"><?php echo EDUCATION ?></a></li>
                                     <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
                                     <li style="border-top: solid 1px; border-color: #000; width: 100%;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
