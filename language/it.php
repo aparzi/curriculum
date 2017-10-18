@@ -2,6 +2,7 @@
 /***************************** NAVBAR **************************************/
 define("ABOUT", "CHI SONO");
 define("WORKS", "LAVORI");
+define("EDUCATION", "ISTRUZIONE");
 define("CONTACT_ME", "CONTATTI");
 
 /************************** INTRODUZIONE ********************************/

@@ -413,7 +413,7 @@ include './language/' . $lang_user . '.php';
             <div class="container">
                 <div class="row">
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
-                        <h2> <i class="fa fa-graduation-cap"></i>Education</h2>
+                        <h2> <i class="fa fa-graduation-cap"></i><?php echo EDUCATION?></h2>
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
