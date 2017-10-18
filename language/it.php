@@ -3,6 +3,7 @@
 define("ABOUT", "CHI SONO");
 define("WORKS", "LAVORI");
 define("CONTACT_ME", "CONTATTI");
+
 /************************** INTRODUZIONE ********************************/
 define("INTRODUCTION",
         "Mi chiamo Angelo Parziale e sono uno sviluppatore web e mobile.
@@ -12,6 +13,14 @@ define("INTRODUCTION",
         Per il mondo mobile sviluppo sia app native facendo uso del framework ionic2 ma anche app native sviluppando in android.
         Sul mio carattere che dire...Sono un ragazzo che ama relazionarsi con le persone, quindi potete contattarmi non solo per questioni lavorative
         ma anche per stringere un nuovo rapporto d'amicizia. 😃");
+
+/************************* EQUIPAGGIAMENTO PERSONALE ************************************/
+define("MY_EQUIPMENT", "EQUIPAGGIAMENTO PERSONALE");
+define("JETBRAINS", "Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, I was fortunate to use their products and I can't longer do without.
+                    My favorites are <b>PhpStorm</b>, <b>IntelliJ Idea</b> and <b>Android Studio</b>.");
+define("GIT", "Ogni mio progetto inizia con il comando: <code>git init</code>. Utilizzo git da linea di comando e la sua interfaccia web <b>github</b>.");
+define("LINUX", "Sono ormai pi&ugrave; di quattro anni che sono passato nel magico mondo del pinguino 🐧 abbandonando
+                                                windows. Mi diverto a provare le varie distro Linux, ma lavoro completamente con <b>Ubuntu</b> mentre le altre mi diverto a sperimentarle.");
 
 /************************* SECTION + CURRICULUM PAGE ************************************/
 define("WORK_EXPERIENCE", "Esperienze Lavorative");
@@ -42,8 +51,3 @@ define("DESCRIPTION_CERTIFICATE", "Conseguimento del certificato in operatore in
 define("TITLE_UNIVERSITY", "UNIVERSITÀ DEGLI STUDI DEL MOLISE");
 define("DESCRIPTION_UNIVERSITY", "Nell'anno 2014 mi sono iscritto all'università degli studi del Molise e attualmente sto continuando il mio percorso di studi in Informatica.");
 
-/************************** CONTACTS PAGE *************************************/
-define("My_Address", "Dove Abito");
-define("Mobile_Number", "Numero Cellulare");
-define("Request_Number", "Contattami in privato");
-define("Text_on_AboutMe", "Amo lavorare, amo ciò che faccio, ho sempre voglia di imparare e scoprire nuove cose, do sempre il 110%");
