@@ -23,6 +23,10 @@ define("LINUX", "For four years now I use only the Linux operating system 🐧, 
 define("WORK_EXPERIENCE", "Work Experience");
 define("CONTACT", "Contact");
 define("PROGRAMMING_LANGUAGE", "Languages &amp; Frameworks");
+define("TITLE_APP_UNIMOL", "MyUnimol");
+define("DESCRIPTION_APP_UNIMOL", "Along with a team of friends and colleagues, I am following the development and maintenance of <a style='color: red;' href='https://myunimol.it/Login.jsp' target='_blank'>MyUnimol</a>. 
+                                  An application to manage the university career of students at The University of Molise.
+MyUnimol, also available for <a style='color: red;' href='https://play.google.com/store/apps/details?id=rocks.teammolise.myunimol' target='_blank'>Android</a> and <a style='color: red;' href='https://itunes.apple.com/us/app/id1123469490' target='_blank'>iOS</a>.");
 define("TITLE_WORK_1", "Ricormind-Bot");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_WORK_3", "The university project 'Here I'm'");
@@ -39,6 +43,7 @@ define("ASCOLTO", "LISTENING");
 define("LETTURA", "READING");
 define("PARLATO", "SPEAKING");
 define("SCRITTO", "WRITING");
+define("NON_TERMINATO", "in progress");
 
 /**************************** EDUCTION ****************************************/
 define("TITLE_DIPLOMA", "ELECTRONICS TECHNICIAN");

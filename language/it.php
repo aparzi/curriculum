@@ -27,6 +27,10 @@ define("LINUX", "Sono ormai pi&ugrave; di quattro anni che sono passato nel magi
 define("WORK_EXPERIENCE", "Esperienze Lavorative");
 define("CONTACT", "Contatti");
 define("PROGRAMMING_LANGUAGE", "Linguaggi &amp; Framework");
+define("TITLE_APP_UNIMOL", "MyUnimol");
+define("DESCRIPTION_APP_UNIMOL", "Insieme ad un team di amici e colleghi, sto seguendo lo sviluppo e la manutenzione di <a style='color: red;' href='https://myunimol.it/Login.jsp' target='_blank'>MyUnimol</a>. 
+                                  Un applicazione per gestire la carriera universitaria di studente presso L'Universit&agrave; degli Studi del Molise.
+                                  MyUnimol, disponibile anche per <a style='color: red;' href='https://play.google.com/store/apps/details?id=rocks.teammolise.myunimol' target='_blank'>Android</a> ed <a style='color: red;' href='https://itunes.apple.com/us/app/id1123469490' target='_blank'>iOS</a>.");
 define("TITLE_WORK_1", "Ricormind-Bot");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_WORK_3", "Progetto Universitario 'Here I'm'");
@@ -43,6 +47,7 @@ define("ASCOLTO", "ASCOLTO");
 define("LETTURA", "LETTURA");
 define("PARLATO", "PARLATO");
 define("SCRITTO", "SCRITTO");
+define("NON_TERMINATO", "in corso");
 
 /**************************** EDUCTION ****************************************/
 define("TITLE_DIPLOMA", "PERITO ELETTRONICO");
