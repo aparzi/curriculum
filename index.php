@@ -62,14 +62,14 @@ include './language/' . $lang_user . '.php';
         <link rel="stylesheet" href="assets/css/responsive.css">
 
         <!-- LOAD COLOUR CSS -->
-        <script src="assets/js/loadCss.js"></script>
+        <script src="assets/js/functions.js"></script>
     </head>
     <body>
         <!-- =========================================
                            HEADER TOP
         ==========================================-->
         <header id="header-top"> <!--Start: "Header Area"-->
-            <div class="container">
+            <!--<div class="container">
                 <div class="row">
                     <div class="top-contact col m12 left">
                         <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
@@ -77,7 +77,7 @@ include './language/' . $lang_user . '.php';
                         <span><i class="fa fa-envelope"></i> <a style="color: white;" href="mailto:">angeloparziale94@gmail.com</a></span>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
             <!-- =========================================
                            NAVIGATION
@@ -88,6 +88,12 @@ include './language/' . $lang_user . '.php';
                         <div class="row">
                             <nav class="nav-wrap">
                                 <ul class="hide-on-med-and-down group"  id="example-one">
+                                    <li name="nm_it" style="border-right: solid 1px; border-color: #000;">
+                                        <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
+                                    </li>
+                                    <li name="nm_eng" style="border-right: solid 1px; border-color: #000; display: none;">
+                                        <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
+                                    </li>
                                     <li class="current_page_item"><a href="#header-top">Home</a></li>
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
@@ -98,6 +104,12 @@ include './language/' . $lang_user . '.php';
                                 </ul>
                                 <!-- NAVBAR SMARTPHONE -->
                                 <ul class="side-nav" id="slide-out">
+                                    <li name="nm_it" style="border-bottom: solid 1px; border-color: #000;">
+                                        <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
+                                    </li>
+                                    <li name="nm_eng" style="border-bottom: solid 1px; border-color: #000; display: none;">
+                                        <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
+                                    </li>
                                     <li><a href="#header-bottom" class="active">Home</a></li>
                                     <li><a href="#about"><?php echo ABOUT ?></a></li>
                                     <li><a href="#skills">Skills</a></li>
@@ -113,7 +125,6 @@ include './language/' . $lang_user . '.php';
                 </div>
             </div> <!--End: Header Area-->
         </header> <!--End: Header Area-->
-
         <!-- =========================================
                         ABOUT
         ==========================================-->
@@ -523,45 +534,16 @@ include './language/' . $lang_user . '.php';
             ga('send', 'pageview');
 
         </script>
-        <!-- =========================================================
-            STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
-        ===========================================================-->
 
-        <!-- Style switter js -->
-        <!--<script src="assets/js/styleswitcher.js"></script>
-
-        <div class="cv-style-switch" id="switch-style">
-            <a id="toggle-switcher" class="switch-button icon_tools"> <i class="fa fa-cogs"></i></a>
-            <div class="switched-options">
-                <div class="config-title">
-                    Colors :
-                </div>
-                <ul class="styles">
-                    <li><a href="index.html#" onclick="setActiveStyleSheet('red'); return false;" title="Red">
-                    <div class="red"></div>
-                    </a></li>
-
-                    <li><a href="index.html#" onclick="setActiveStyleSheet('purple'); return false;" title="purple">
-                    <div class="purple"></div>
-                    </a></li>
-
-                    <li><a href="index.html#" onclick="setActiveStyleSheet('orange'); return false;" title="orange">
-                    <div class="orange"></div>
-                    </a></li>
-
-                    <li><a href="index.html#" onclick="setActiveStyleSheet('green'); return false;" title="green">
-                    <div class="green"></div>
-                    </a></li>
-
-                    <li><a href="index.html#" onclick="setActiveStyleSheet('lime'); return false;" title="lime">
-                    <div class="lime"></div>
-                    </a></li>
-
-                    <li class="p">
-                        ( NOTE: Pre Defined Colors. You can change colors very easily )
-                    </li>
-                </ul>
-            </div>
-        </div>-->
+        <script>
+            var language = getParameterByName('lang_user');
+            if (language == false || language == 'it') {
+                $('li[name=nm_eng]').css('display', 'block')
+                $('li[name=nm_it]').css('display', 'none')
+            } else {
+                $('li[name=nm_it]').css('display', 'block')
+                $('li[name=nm_eng]').css('display', 'none')
+            }
+        </script>
     </body>
 </html>
