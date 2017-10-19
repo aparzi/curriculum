@@ -17,8 +17,8 @@ define("INTRODUCTION",
 
 /************************* EQUIPAGGIAMENTO PERSONALE ************************************/
 define("MY_EQUIPMENT", "EQUIPAGGIAMENTO PERSONALE");
-define("JETBRAINS", "Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, I was fortunate to use their products and I can't longer do without.
-                    My favorites are <b>PhpStorm</b>, <b>IntelliJ Idea</b> and <b>Android Studio</b>.");
+define("JETBRAINS", "Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, ho avuto la fortuna di provare i loro prodotti e ora non posso pi&ugrave; farne a meno.
+                    I miei preferiti sono <b>PhpStorm</b>, <b>IntelliJ Idea</b> ed <b>Android Studio</b>.");
 define("GIT", "Ogni mio progetto inizia con il comando: <code>git init</code>. Utilizzo git da linea di comando e la sua interfaccia web <b>github</b>.");
 define("LINUX", "Sono ormai pi&ugrave; di quattro anni che sono passato nel magico mondo del pinguino 🐧 abbandonando
                                                 windows. Mi diverto a provare le varie distro Linux, ma lavoro completamente con <b>Ubuntu</b> mentre le altre mi diverto a sperimentarle.");
