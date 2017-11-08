@@ -303,6 +303,17 @@ include './language/' . $lang_user . '.php';
                                 <p><?php echo DESCRIPTION_APP_UNIMOL ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
+                        <div class="cd-timeline-block wow fadeIn a4" data-wow-delay="0.4s">
+                            <div class="cd-timeline-img">
+                            </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content col m5 s12 z-depth-1">
+                                <a target="_blank" href="https://datasounds.io/"><h2><?php echo TITLE_DATASOUNDS ?>
+                                        <img style="margin-top: -14px;" src="assets/images/projects/datasounds.png" width="32" height="32" alt="logo myUnimol" />
+                                    </h2></a>
+                                <span> 2016 - 2017 </span>
+                                <p><?php echo DESCRIPTION_DATASOUNDS ?></p>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
                         <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
@@ -337,15 +348,6 @@ include './language/' . $lang_user . '.php';
                                     </h2></a>
                                 <span> 2016 - 2017 </span>
                                 <p><?php echo DESCRIPTION_WORK4 ?></p>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
-                        <div class="cd-timeline-block wow fadeIn a4" data-wow-delay="0.4s">
-                            <div class="cd-timeline-img">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a><h2><?php echo TITLE_WORK_3 ?></h2></a>
-                                <span> 2015 - 2016 </span>
-                                <p><?php echo DESCRIPTION_WORK3 ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
                     </div> <!-- cd-timeline -->
