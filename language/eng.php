@@ -27,22 +27,16 @@ define("TITLE_APP_UNIMOL", "MyUnimol");
 define("DESCRIPTION_APP_UNIMOL", "Along with a team of friends and colleagues, I am following the development and maintenance of <a style='color: red;' href='https://myunimol.it/Login.jsp' target='_blank'>MyUnimol</a>. 
                                   An application to manage the university career of students at The University of Molise.
 MyUnimol, also available for <a style='color: red;' href='https://play.google.com/store/apps/details?id=rocks.teammolise.myunimol' target='_blank'>Android</a> and <a style='color: red;' href='https://itunes.apple.com/us/app/id1123469490' target='_blank'>iOS</a>.");
-define("TITLE_WORK_1", "Ricormind-Bot");
+define("TITLE_XEOS", "<a target='_blank' href='http://xeos.it/'><span class='custom-span' style='color: #000;'>Xe</span><span class='custom-span' style='color: #ff0000'>os</span></a>");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_DATASOUNDS", "Datasounds");
 define("TITLE_WORK_4", "SANER 2018");
 define("TITLE_WORK_5", "'Il pianeta film'");
-define("DESCRIPTION_WORK1", "I'm the <b>founder</b> of the Ricormind bot. A bot that helps you remember where you place any type of object, Ricormind also has a <a href='https://www.gmonuments.altervista.org/ricormind/' target='_blank'>web portal</a> where you can see any kind of interaction you've had with the bot. I do not want to let you know all its features, if you want to try it <a href='https://telegram.me/ricormindbot' target='_blank'>click here</a>.");
+define("DESCRIPTION_XEOS", "I collaborate remotely with <a style='color: red;' target='_blank' href='http://www.xeos.it'>Xeos.it</a> as Software developer. In the company I work to developed services of type Rest or Soap services, in addition to the implementation phase I also take care of the testing phase. 
+                            As a programming language we use Java8 together with the Spring boot framework and the Maven dependency manager.");
 define("DESCRIPTION_WORK2", 'I made the website for GRS 2017 (Days of Scientific Research) an event that was held at the University of Molise specifically at the Pesche office. I did the work using technologies such as bootstrap, html and javascript.');
 define("DESCRIPTION_DATASOUNDS", "I callaborated for just over a year with Molise's spin-off, <a style='color: red; cursor: pointer;' href='https://datasounds.io/' target='_blank'>Datasounds</a>. I have done the role of developer, specifically I was dealing with the frontend using the javascript  technology. The team I worked with was generally formed by 3/4 people, plus the senior.");
 define("DESCRIPTION_WORK4", "I built the site of Saner 2018, an international conference on software maintenance, using web technologies such as php and javascript.");
-define("DESCRIPTION_WORK5", "I developed the web site 'Il pianeta film' for watching in streaming or download different films. In particular I created the web site using the platform web Altervista. I added different functionality to the site using the programming languages html5 and javascript.");
-define("LANGUAGES", "LANGUAGES");
-define("LINGUA", "LANGUAGES");
-define("ASCOLTO", "LISTENING");
-define("LETTURA", "READING");
-define("PARLATO", "SPEAKING");
-define("SCRITTO", "WRITING");
 define("NON_TERMINATO", "in progress");
 
 /**************************** EDUCTION ****************************************/

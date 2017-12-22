@@ -1071,3 +1071,11 @@ table#personalEquipment tbody tr td p {
   padding-top: 20px;
   margin-bottom: 20px;
 }
+
+.custom-span {
+  font-size: 22px !important;
+  line-height: 40px !important;
+  font-weight: bold;
+  color: inherit;
+  margin: 0px;
+}

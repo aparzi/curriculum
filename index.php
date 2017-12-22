@@ -294,6 +294,19 @@ include './language/' . $lang_user . '.php';
                         <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content col m5 s12 z-depth-1">
+                                <a href="https://telegram.me/ricormindbot" target="_blank">
+                                    <h2><?php echo TITLE_XEOS ?>
+                                        <!--<img style="margin-top: -7px;" src="assets/images/projects/ricormind.png" width="32" height="32" alt="logo ricormind" />-->
+                                    </h2></a>
+                                <span>2017 - <?php echo NON_TERMINATO ?></span>
+                                <p><?php echo DESCRIPTION_XEOS ?></p>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+
+                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                            <div class="cd-timeline-img">
+                            </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
                                 <a target="_blank" href="https://myunimol.it/Login.jsp"><h2><?php echo TITLE_APP_UNIMOL ?>
@@ -303,6 +316,7 @@ include './language/' . $lang_user . '.php';
                                 <p><?php echo DESCRIPTION_APP_UNIMOL ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
+
                         <div class="cd-timeline-block wow fadeIn a4" data-wow-delay="0.4s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
@@ -314,18 +328,7 @@ include './language/' . $lang_user . '.php';
                                 <p><?php echo DESCRIPTION_DATASOUNDS ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
-                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
-                            <div class="cd-timeline-img">
-                            </div> <!-- cd-timeline-img -->
-                            <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="https://telegram.me/ricormindbot" target="_blank">
-                                    <h2><?php echo TITLE_WORK_1 ?>
-                                        <img style="margin-top: -7px;" src="assets/images/projects/ricormind.png" width="32" height="32" alt="logo ricormind" />
-                                    </h2></a>
-                                <span>2017</span>
-                                <p><?php echo DESCRIPTION_WORK1 ?></p>
-                            </div> <!-- cd-timeline-content -->
-                        </div> <!-- cd-timeline-block -->
+
                         <div class="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
@@ -338,6 +341,7 @@ include './language/' . $lang_user . '.php';
                                 <p><?php echo DESCRIPTION_WORK2 ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
+
                         <div class="cd-timeline-block wow fadeIn a5" data-wow-delay="0.5s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
@@ -350,6 +354,7 @@ include './language/' . $lang_user . '.php';
                                 <p><?php echo DESCRIPTION_WORK4 ?></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
+
                     </div> <!-- cd-timeline -->
                 </div>
             </div>

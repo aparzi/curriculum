@@ -31,21 +31,15 @@ define("TITLE_APP_UNIMOL", "MyUnimol");
 define("DESCRIPTION_APP_UNIMOL", "Insieme ad un team di amici e colleghi, sto seguendo lo sviluppo e la manutenzione di <a style='color: red;' href='https://myunimol.it/Login.jsp' target='_blank'>MyUnimol</a>. 
                                   Un applicazione per gestire la carriera universitaria di studente presso L'Universit&agrave; degli Studi del Molise.
                                   MyUnimol, disponibile anche per <a style='color: red;' href='https://play.google.com/store/apps/details?id=rocks.teammolise.myunimol' target='_blank'>Android</a> ed <a style='color: red;' href='https://itunes.apple.com/us/app/id1123469490' target='_blank'>iOS</a>.");
-define("TITLE_WORK_1", "Ricormind-Bot");
+define("TITLE_XEOS", "<a target='_blank' href='http://xeos.it/'><span class='custom-span' style='color: #000;'>Xe</span><span class='custom-span' style='color: #ff0000'>os</span></a>");
 define("TITLE_WORK_2", "Grs 2017");
 define("TITLE_DATASOUNDS", "Datasounds");
 define("TITLE_WORK_4", "SANER 2018");
-define("DESCRIPTION_WORK1", "Sono <b>fondatore</b> del bot Ricormind. Un bot che ti aiuta a ricordare dove posizioni qualsiasi tipo di oggetto, Ricormind è dotato anche di un <a style='color: red;' href='https://www.gmonuments.altervista.org/ricormind/' target='_blank'>portale web</a> in cui è possibile vedere ogni tipo di interazione che si ha avuto con il bot. Non voglio svelarti tutte le sue funzionalità, se vuoi provarlo <a style='color: red;' href='https://telegram.me/ricormindbot' target='_blank'>clicca quì</a>.");
+define("DESCRIPTION_XEOS", "Collaboro da remoto con <a style='color: red;' target='_blank' href='http://xeos.it'>Xeos.it</a> come Software developer. In azienda mi occupo di realizzare servizi Rest oppure servizi Soap, oltre alla fase di realizzazione mi occupo anche della fase di testing.
+                            Come linguaggio di programmazione usiamo Java8 insieme al framework Spring boot e per il gestore di dipendenze Maven.");
 define("DESCRIPTION_WORK2", "Ho realizzato il sito web per GRS 2017 (Giornate della Ricerca Scientifica) un evento che si è tenuto all'università del Molise nello specifico alla sede di Pesche. Il lavoro l'ho realizzato usando tecnologie quali: bootstrap, html e javascript.");
 define("DESCRIPTION_DATASOUNDS", "Ho callaborato per poco pi&ugrave di un anno con lo spin-off del Molise, <a style='color: red; cursor: pointer;' href='https://datasounds.io/' target='_blank'>Datasounds</a>. Ho svolto il ruolo dello sviluppatore, nello specifico mi occupavo del frontend utilizzando lo stack tecnologico javascript. Il team con cui ho lavorato era formato in genere da 3/4 persone, pi&ugrave il senior.");
 define("DESCRIPTION_WORK4", "Ho realizzato il sito di Saner 2018, conferenza internazionale sulla manutenzione dei sistemi software, facendo uso delle tecnologie per il web come il php e javascript.");
-define("DESCRIPTION_WORK5", "Ho sviluppato il sito Il pianeta film per lo streaming e il download di diversi film. Nel dettaglio ho creato il sito utilizzando la piattaforma web Altervista. Ho aggiunto diverse funzionalità al sito sfruttando i linguaggi di programmazione html5 e javascript.");
-define("LANGUAGES", "LINGUE");
-define("LINGUA", "LINGUE");
-define("ASCOLTO", "ASCOLTO");
-define("LETTURA", "LETTURA");
-define("PARLATO", "PARLATO");
-define("SCRITTO", "SCRITTO");
 define("NON_TERMINATO", "in corso");
 
 /**************************** EDUCTION ****************************************/
