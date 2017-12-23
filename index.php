@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<?php
-$lang_supported = array("it", "eng");
-$lang_default = "it";
-$lang_user = filter_input(INPUT_GET, 'lang_user');
-if (!isset($lang_user)) {
-    $lang_user = $lang_default;
-}
-include './language/' . $lang_user . '.php';
-?>
 <!--[if IE 7]><html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 8]><html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!-->
@@ -89,17 +80,17 @@ include './language/' . $lang_user . '.php';
                             <nav class="nav-wrap">
                                 <ul class="hide-on-med-and-down group"  id="example-one">
                                     <li name="nm_it" style="border-right: solid 1px; border-color: #000;">
-                                        <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
+                                        <a id="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
                                     </li>
                                     <li name="nm_eng" style="border-right: solid 1px; border-color: #000; display: none;">
-                                        <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
+                                        <a id="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
                                     </li>
                                     <li class="current_page_item"><a href="#header-top">Home</a></li>
-                                    <li><a href="#about"><?php echo ABOUT ?></a></li>
+                                    <li><a href="#about"></a></li>
                                     <li><a href="#skills">Skills</a></li>
-                                    <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#education"><?php echo EDUCATION ?></a></li>
-                                    <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
+                                    <li><a href="#works"></a></li>
+                                    <li><a href="#education"></a></li>
+                                    <li><a href="#contact-form"></a></li>
                                     <li style="border-left: solid 1px; border-color: #000;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
                                 <!-- NAVBAR SMARTPHONE -->
@@ -111,11 +102,11 @@ include './language/' . $lang_user . '.php';
                                         <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
                                     </li>
                                     <li><a href="#header-bottom" class="active">Home</a></li>
-                                    <li><a href="#about"><?php echo ABOUT ?></a></li>
+                                    <li><a href="#about"></a></li>
                                     <li><a href="#skills">Skills</a></li>
-                                    <li><a href="#works"><?php echo WORKS ?></a></li>
-                                    <li><a href="#education"><?php echo EDUCATION ?></a></li>
-                                    <li><a href="#contact-form"><?php echo CONTACT_ME ?></a></li>
+                                    <li><a href="#works"></a></li>
+                                    <li><a href="#education"></a></li>
+                                    <li><a href="#contact-form"></a></li>
                                     <li style="border-top: solid 1px; border-color: #000; width: 100%;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
                                 </ul>
                                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -141,35 +132,27 @@ include './language/' . $lang_user . '.php';
                             <div class="intro-content col m11 s12">
                                 <h2>Angelo Parziale</h2>
                                 <span>Web/Mobile Developer</span>
-                                <p>
-                                    <?php echo INTRODUCTION ?>
-                                </p>
-                                <h5 style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i><?php echo MY_EQUIPMENT?></b></h5>
+                                <p id="introduction"></p>
+                                <h5 id="title_equipment" style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i><?php echo MY_EQUIPMENT?></b></h5>
                                 <div class="responsive">
                                 <table id="personalEquipment" class="table">
                                     <tbody>
                                     <tr>
                                         <td>
                                             <img src="assets/images/kit/jet_brains_logo.png" alt="JetBrains Logo">
-                                            <p style="padding-top: 0;">
-                                                <?php echo JETBRAINS ?>
-                                            </p>
+                                            <p style="padding-top: 0;" id="descr_jetbrains"></p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <img src="assets/images/kit/github.png" alt="Git Logo">
-                                            <p>
-                                                <?php echo GIT ?>
-                                            </p>
+                                            <p id="descr_git"></p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <img style="padding-top: 15px;" src="assets/images/kit/linux.png" alt="Linux Logo">
-                                            <p>
-                                                <?php echo LINUX ?>
-                                            </p>
+                                            <p id="descr_linux"></p>
                                         </td>
                                     </tr>
                                     </tbody>
@@ -196,7 +179,7 @@ include './language/' . $lang_user . '.php';
                     </div>
                     <div class="skill-line z-depth-1">
                         <div class="row">
-                            <h3 style="text-align: center;"><?php echo PROGRAMMING_LANGUAGE ?></h3>
+                            <h3 id="programming_language" style="text-align: center;"></h3>
                             <div class="skill-bar col m6 s6 wow fadeIn a1"  data-wow-delay="0.1s">
                                 <span>PHP/MySQL</span>
                                 <div class="progress">
@@ -288,7 +271,7 @@ include './language/' . $lang_user . '.php';
             <div class="container">
                 <div class="row">
                     <div class="section-title">
-                        <h2> <i class="fa fa-suitcase"> </i><?php echo WORK_EXPERIENCE ?></h2>
+                        <h2 id="title_work_experience"></h2>
                     </div>
                     <div id="cd-timeline" class="cd-container">
                         <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
@@ -296,11 +279,11 @@ include './language/' . $lang_user . '.php';
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
                                 <a href="https://telegram.me/ricormindbot" target="_blank">
-                                    <h2><?php echo TITLE_XEOS ?>
+                                    <h2 id="title_xeos">
                                         <!--<img style="margin-top: -7px;" src="assets/images/projects/ricormind.png" width="32" height="32" alt="logo ricormind" />-->
                                     </h2></a>
-                                <span>2017 - <?php echo NON_TERMINATO ?></span>
-                                <p><?php echo DESCRIPTION_XEOS ?></p>
+                                <span>2017 - </span><span class="non_terminato"></span>
+                                <p id="description_xeos"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -309,11 +292,9 @@ include './language/' . $lang_user . '.php';
                             </div> <!-- cd-timeline-img -->
 
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a target="_blank" href="https://myunimol.it/Login.jsp"><h2><?php echo TITLE_APP_UNIMOL ?>
-                                        <img style="margin-top: -7px;" src="assets/images/projects/myunimol.png" width="32" height="32" alt="logo myUnimol" />
-                                    </h2></a>
-                                <span>2017 - <?php echo NON_TERMINATO ?></span>
-                                <p><?php echo DESCRIPTION_APP_UNIMOL ?></p>
+                                <a target="_blank" href="https://myunimol.it/Login.jsp"><h2 id="title_app_unimol"></h2></a>
+                                <span>2017 - </span><span class="non_terminato"></span>
+                                <p id="description_app_unimol"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -321,11 +302,9 @@ include './language/' . $lang_user . '.php';
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a target="_blank" href="https://datasounds.io/"><h2><?php echo TITLE_DATASOUNDS ?>
-                                        <img style="margin-top: -14px;" src="assets/images/projects/datasounds.png" width="32" height="32" alt="logo myUnimol" />
-                                    </h2></a>
+                                <a target="_blank" href="https://datasound.it/"><h2 id="title_datasounds"></h2></a>
                                 <span> 2016 - 2017 </span>
-                                <p><?php echo DESCRIPTION_DATASOUNDS ?></p>
+                                <p id="description_datasounds"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -334,11 +313,9 @@ include './language/' . $lang_user . '.php';
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
                                 <a href="https://dibt.unimol.it/grs2017/" target="_blank">
-                                    <h2><?php echo TITLE_WORK_2 ?>
-                                        <img style="margin-top: -7px;" src="assets/images/projects/unimol.png" width="32" height="32" alt="logo unimol" />
-                                    </h2></a>
+                                    <h2 id="title_grs_2017"></h2></a>
                                 <span>2017</span>
-                                <p><?php echo DESCRIPTION_WORK2 ?></p>
+                                <p id="description_grs_2017"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -347,11 +324,9 @@ include './language/' . $lang_user . '.php';
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
                                 <a href="http://saner.unimol.it/" target="_blank">
-                                    <h2><?php echo TITLE_WORK_4 ?>
-                                        <img style="margin-top: -7px;" src="assets/images/projects/logoSaner.png" width="32" height="32" alt="logo saner" />
-                                    </h2></a>
+                                    <h2 id="title_saner_2018"></h2></a>
                                 <span> 2016 - 2017 </span>
-                                <p><?php echo DESCRIPTION_WORK4 ?></p>
+                                <p id="description_saner_2018"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -427,7 +402,7 @@ include './language/' . $lang_user . '.php';
             <div class="container">
                 <div class="row">
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
-                        <h2> <i class="fa fa-graduation-cap"></i><?php echo EDUCATION?></h2>
+                        <h2 id="title_education" style="text-transform: capitalize;"> <i class="fa fa-graduation-cap"></i></h2>
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
@@ -435,18 +410,18 @@ include './language/' . $lang_user . '.php';
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="http://www.unimol.it/" target="_blank"><h2><?php echo TITLE_UNIVERSITY ?></h2></a>
-                                <span> 2014 - <?php echo NON_TERMINATO ?> </span>
-                                <p><?php echo DESCRIPTION_UNIVERSITY ?></p>
+                                <a href="http://www.unimol.it/" target="_blank"><h2 id="title_university"></h2></a>
+                                <span> 2014 - </span><span class="non_terminato"></span>
+                                <p id="description_university"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
                         <div class="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <h2><?php echo TITLE_CERTIFICATE ?></h2>
+                                <h2 id="title_certificate"></h2>
                                 <span> 2013 - 2014 </span>
-                                <p><?php echo DESCRIPTION_CERTIFICATE ?></p>
+                                <p id="description_certificate"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -454,9 +429,9 @@ include './language/' . $lang_user . '.php';
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="http://www.ipiacb.it/" target="_blank"><h2><?php echo TITLE_DIPLOMA ?></h2></a>
+                                <a href="http://www.ipiacb.it/" target="_blank"><h2 id="title_diploma"></h2></a>
                                 <span> 2012 - 2013 </span>
-                                <p><?php echo DESCRIPTION_DIPLOMA ?></p>
+                                <p id="description_diploma"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
                     </div> <!-- cd-timeline -->
@@ -472,7 +447,7 @@ include './language/' . $lang_user . '.php';
             <div class="container">
                 <div class="row">
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
-                        <h2> <i class="fa fa-send"></i><?php echo CONTACT ?></h2>
+                        <h2 id="title_contact"> <i class="fa fa-send"></i></h2>
                     </div>
                     <div class="contact-form z-depth-1" id="contact">
                         <div class="row">
@@ -518,7 +493,6 @@ include './language/' . $lang_user . '.php';
         </section>
 
         <!-- SCRIPTS -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js'></script>
         <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
         <script src="assets/js/masonry.pkgd.js"></script>
@@ -531,6 +505,7 @@ include './language/' . $lang_user . '.php';
         <!-- wow js-->
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/init.js"></script>
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -542,15 +517,5 @@ include './language/' . $lang_user . '.php';
 
         </script>
 
-        <script>
-            var language = getParameterByName('lang_user');
-            if (language == false || language == 'it') {
-                $('li[name=nm_eng]').css('display', 'block')
-                $('li[name=nm_it]').css('display', 'none')
-            } else {
-                $('li[name=nm_it]').css('display', 'block')
-                $('li[name=nm_eng]').css('display', 'none')
-            }
-        </script>
     </body>
 </html>
