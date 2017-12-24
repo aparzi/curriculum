@@ -3,48 +3,29 @@
  */
 $(window).ready(function () {
     languageItalian();
-    $('#lang_it').on('click', languageItalian);
-    $('#lang_eng').on('click', languageEnglish);
+    $('.lang_it').on('click', languageItalian);
+    $('.lang_eng').on('click', languageEnglish);
 });
 
 /***  Color theme random START ***/
 var number = Math.floor((Math.random() * 5) + 1);
-
 switch (number) {
-
     case 1:
         $('head').append('<link rel="stylesheet" type="text/css" href="assets/css/color/orange.css">');
         break;
-
     case 2:
         $('head').append('<link rel="stylesheet" type="text/css" href="assets/css/color/green.css">');
         break;
-
     case 3:
         $('head').append('<link rel="stylesheet" type="text/css" href="assets/css/color/lime.css">');
         break;
-
     case 4:
         $('head').append('<link rel="stylesheet" type="text/css" href="assets/css/color/purple.css">');
         break;
-
     case 5:
         $('head').append('<link rel="stylesheet" type="text/css" href="assets/css/color/red.css">');
         break;
 }
-
-function languageItalian() {
-    switchFlagLanguage('lang_eng')
-    $('<script src="resource/lang_it.js"></' + 'script>').appendTo(document.body);
-    setItalian()
-}
-
-function languageEnglish() {
-    switchFlagLanguage('lang_it')
-    $('<script src="resource/lang_eng.js"></' + 'script>').appendTo(document.body);
-    setEnglish()
-}
-
 
 /*** Get value query string ***/
 function getParameterByName(name, url) {
@@ -61,13 +42,27 @@ function getParameterByName(name, url) {
 }
 
 /*** Switch language ***/
+function languageItalian() {
+    switchFlagLanguage('lang_eng');
+    $("script[src='resource/lang_eng.js']").remove();
+    $('<script src="resource/lang_it.js"></' + 'script>').appendTo(document.body);
+    setItalian()
+}
+
+function languageEnglish() {
+    switchFlagLanguage('lang_it');
+    $("script[src='resource/lang_it.js']").remove();
+    $('<script src="resource/lang_eng.js"></' + 'script>').appendTo(document.body);
+    setEnglish()
+}
+
 function switchFlagLanguage(id_language) {
     if (id_language == 'lang_it') {
-        $('li[name=nm_it]').css('display', 'block')
-        $('li[name=nm_eng]').css('display', 'none')
+        $('li[name=nm_it]').css('display', 'block');
+        $('li[name=nm_eng]').css('display', 'none');
     } else {
-        $('li[name=nm_eng]').css('display', 'block')
-        $('li[name=nm_it]').css('display', 'none')
+        $('li[name=nm_eng]').css('display', 'block');
+        $('li[name=nm_it]').css('display', 'none');
     }
 }
 
