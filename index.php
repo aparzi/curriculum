@@ -340,58 +340,35 @@
         ==========================================-->
         <section id="blog">
             <div class="container">
-                <div class="row">
+                <cent class="row">
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
-                        <h2> <i class="fa fa-edit"> </i>Blog</h2>
+                        <h2> <i class="fa fa-instagram"> </i>Instagram</h2>
                     </div>
-                    <div class="row">
-                        <div class="blog">
-                            <div class="col m4 s12 blog-post wow fadeIn a2" data-wow-delay="0.2s">
-                                <div class="thumbnail z-depth-1 animated">
-                                    <img src="assets/images/blog/postman.png" alt="" class="responsive-img">
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-1">
-                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/22/postman/">
-                                                <h2>Postman</h2>
-                                                <span>Tool per testing API</span>
-                                            </a>
-                                        </div>
-                                        <!--<div class="post-details">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.
-                                                Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                                        </div>-->
-                                    </div>
+                    <center>
+                        <blockquote class="instagram-media" data-instgrm-captioned
+                                    data-instgrm-permalink="https://www.instagram.com/p/BYwOaYaHDtO/"
+                                    data-instgrm-version="8"
+                                    style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto !important; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                            <div style="padding:8px;">
+                                <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
+                                    <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
                                 </div>
+                                <p style=" margin:8px 0 0 0; padding:0 4px;"><a
+                                            href="https://www.instagram.com/p/BYwOaYaHDtO/"
+                                            style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;"
+                                            target="_blank">#workstation #pc #programming #webdeveloper #job #passion
+                                        #unimol #php #computerscience #university #js #javascript</a></p>
+                                <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                    Un post condiviso da <a href="https://www.instagram.com/aparzi/"
+                                                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;"
+                                                            target="_blank"> Angelo Parziale</a> (@aparzi) in data:
+                                    <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                          datetime="2017-09-07T20:39:11+00:00">Set 7, 2017 at 1:39 PDT
+                                    </time>
+                                </p>
                             </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
-                                <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/blog/composer_img.png" alt="composer logo" class="responsive-img">
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-4">
-                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/21/composer-addio-problemi-di-dipendenze/">
-                                                <h2>Composer</h2>
-                                                <span>Dependency management in PHP</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col m4 s12 blog-post wow fadeIn a5" data-wow-delay="0.5s">
-                                <div class="thumbnail z-depth-1">
-                                    <img src="assets/images/blog/slim_logo.png" alt="" class="responsive-img">
-                                    <div class="blog-details">
-                                        <div class="post-title" id="blog-post-5">
-                                            <a target="_blank" href="https://www.angeloparziale.it/blog/2017/06/17/slim-framework/">
-                                                <h2>Slim Framework</h2>
-                                                <span>Framework PHP leggero e snello</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        </blockquote>
+                    </center>
                 </div>
             </div>
         </section>
@@ -492,7 +469,7 @@
             </div>
         </section>
 
-        <!-- SCRIPTS -->
+        <!-- scripts -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js'></script>
         <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
         <script src="assets/js/masonry.pkgd.js"></script>
@@ -501,11 +478,13 @@
         <script src="assets/js/modernizr.js"></script>
         <script src="assets/js/jquery.sticky.js"></script>
         <script src="assets/js/jquery.nav.js"></script>
+        <!-- Personal script -->
         <script src="control/contact/email.js"></script>
+        <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
         <!-- wow js-->
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/init.js"></script>
-
+        <!-- Google Analitycs -->
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -514,7 +493,6 @@
 
             ga('create', 'UA-58052891-2', 'auto');
             ga('send', 'pageview');
-
         </script>
 
     </body>
