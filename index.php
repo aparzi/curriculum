@@ -3,119 +3,9 @@
 <!--[if IE 8]><html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-
-        <!-- TITLE OF SITE -->
-        <title> angeloparziale.it </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Curriculum di Angelo Parziale (AParzi)." />
-        <meta name="keywords" content="cv, resume, portfolio, materialize, onepage, personal, blog" />
-        <meta name="author" content="Angelo Parziale">
-
-        <!-- FAVICON -->
-        <link rel="icon" href="assets/images/favicon-32x32.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <!-- JQUERY LIBRARY -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-        <!-- GOOGLE FONTS -->
-        <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
-
-        <!-- FRAMEWORK CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-        <!--<link rel="stylesheet" href="css/lightbox.css">-->
-
-        <!-- FONT ICONS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-        <!-- ADDITIONAL CSS -->
-        <link rel="stylesheet" href="assets/css/timeline.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/nav.css">
-        <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
-
-        <!--   COUSTOM CSS link  -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-
-        <!-- LOAD COLOUR CSS -->
-        <script src="assets/js/functions.js"></script>
-    </head>
+    <?php include 'partials/head.php' ?>
     <body>
-        <!-- =========================================
-                           HEADER TOP
-        ==========================================-->
-        <header id="header-top"> <!--Start: "Header Area"-->
-            <!--<div class="container">
-                <div class="row">
-                    <div class="top-contact col m12 left">
-                        <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
-                        <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
-                        <span><i class="fa fa-envelope"></i> <a style="color: white;" href="mailto:">angeloparziale94@gmail.com</a></span>
-                    </div>
-                </div>
-            </div>-->
-
-            <!-- =========================================
-                           NAVIGATION
-            ==========================================-->
-            <div id="header-bottom" class="z-depth-1"> <!--Start: "Header Area"-->
-                <div id="sticky-nav">
-                    <div class="container">
-                        <div class="row">
-                            <nav class="nav-wrap">
-                                <ul class="hide-on-med-and-down group"  id="example-one">
-                                    <li name="nm_it" style="border-right: solid 1px; border-color: #000;">
-                                        <a class="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
-                                    </li>
-                                    <li name="nm_eng" style="border-right: solid 1px; border-color: #000; display: none;">
-                                        <a class="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
-                                    </li>
-                                    <li class="current_page_item"><a href="#header-top">Home</a></li>
-                                    <li><a href="#about"></a></li>
-                                    <li><a href="#skills">Skills</a></li>
-                                    <li><a href="#works"></a></li>
-                                    <li><a href="#education"></a></li>
-                                    <li><a href="#contact-form"></a></li>
-                                    <li style="border-left: solid 1px; border-color: #000;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
-                                </ul>
-                                <!-- NAVBAR SMARTPHONE -->
-                                <ul class="side-nav" id="slide-out">
-                                    <li name="nm_it" style="border-bottom: solid 1px; border-color: #000;">
-                                        <a class="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
-                                    </li>
-                                    <li name="nm_eng" style="border-bottom: solid 1px; border-color: #000; display: none;">
-                                        <a class="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
-                                    </li>
-                                    <li><a href="#header-bottom" class="active">Home</a></li>
-                                    <li><a href="#about"></a></li>
-                                    <li><a href="#skills">Skills</a></li>
-                                    <li><a href="#works"></a></li>
-                                    <li><a href="#education"></a></li>
-                                    <li><a href="#contact-form"></a></li>
-                                    <li style="border-top: solid 1px; border-color: #000; width: 100%;"><a target="_blank" href="https://www.angeloparziale.it/blog">Blog</a></li>
-                                </ul>
-                                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div> <!--End: Header Area-->
-        </header> <!--End: Header Area-->
+        <?php include 'partials/header.php' ?>
         <!-- =========================================
                         ABOUT
         ==========================================-->
@@ -468,32 +358,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- scripts -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js'></script>
-        <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-        <script src="assets/js/masonry.pkgd.js"></script>
-        <script src="assets/js/jquery.fancybox.pack.js"></script>
-        <script src="assets/js/validator.min.js"></script>
-        <script src="assets/js/modernizr.js"></script>
-        <script src="assets/js/jquery.sticky.js"></script>
-        <script src="assets/js/jquery.nav.js"></script>
-        <!-- Personal script -->
-        <script src="control/contact/email.js"></script>
-        <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-        <!-- wow js-->
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/init.js"></script>
-        <!-- Google Analitycs -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-58052891-2', 'auto');
-            ga('send', 'pageview');
-        </script>
-
+        <?php include 'partials/script.php' ?>
     </body>
 </html>
