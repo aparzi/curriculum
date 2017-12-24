@@ -80,10 +80,10 @@
                             <nav class="nav-wrap">
                                 <ul class="hide-on-med-and-down group"  id="example-one">
                                     <li name="nm_it" style="border-right: solid 1px; border-color: #000;">
-                                        <a id="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
+                                        <a class="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
                                     </li>
                                     <li name="nm_eng" style="border-right: solid 1px; border-color: #000; display: none;">
-                                        <a id="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
+                                        <a class="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
                                     </li>
                                     <li class="current_page_item"><a href="#header-top">Home</a></li>
                                     <li><a href="#about"></a></li>
@@ -96,10 +96,10 @@
                                 <!-- NAVBAR SMARTPHONE -->
                                 <ul class="side-nav" id="slide-out">
                                     <li name="nm_it" style="border-bottom: solid 1px; border-color: #000;">
-                                        <a href="index.php?lang_user=it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
+                                        <a class="lang_it"><img style="cursor: pointer;" src="assets/images/italy.png" alt="italiano" /></a>
                                     </li>
                                     <li name="nm_eng" style="border-bottom: solid 1px; border-color: #000; display: none;">
-                                        <a href="index.php?lang_user=eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
+                                        <a class="lang_eng"><img style="cursor: pointer;" src="assets/images/england.png" alt="england" /></a>
                                     </li>
                                     <li><a href="#header-bottom" class="active">Home</a></li>
                                     <li><a href="#about"></a></li>
@@ -214,7 +214,7 @@
 
                                 <span>LARAVEL</span>
                                 <div class="progress">
-                                    <div class="determinate">100%</div>
+                                    <div class="determinate">90%</div>
                                 </div>
 
                                 <span>REACTJS</span>
