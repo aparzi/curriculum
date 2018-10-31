@@ -4,21 +4,19 @@ var WORKS = 'lavori'
 var EDUCATION = 'istruzione'
 var CONTACT_ME = 'contatti'
 
-var INTRODUCTION = "Mi chiamo Angelo Parziale e sono uno sviluppatore web e mobile."+
-                    "Per quanto riguarda lo sviluppo web lavoro sia lato front-end, sfruttando lo stack tecnologico javascript, che"+
-                    "lato back-end, in questo caso utilizzo molto i framework php oppure php classico orientato agli oggetti, in alcuni casi"+
-                    "ho utilizzato anche javascript lato server (Nodejs)."+
-                    "Per il mondo mobile sviluppo sia app ibride facendo uso del framework ionic2 ma anche app native sviluppando in android."+
-                    "Sul mio carattere che dire...Sono un ragazzo che ama relazionarsi con le persone, quindi potete contattarmi non solo per questioni lavorative"+
+var INTRODUCTION = "Mi chiamo Angelo Parziale e attualmente studio informatica all'Università degli studi del Molise (Italia), "+
+                    "lavoro alla <a target='_blank' href='http://xeos.it/'>Xeos.it</a> come sviluppatore software, ho una forte passione per il web e per il mondo mobile. " +
+                    "Per quanto riguarda la mia persona che dire, sono uno che ama relazionarsi e metters in gioco, quindi potete contattarmi non solo per questioni lavorative"+
                     "ma anche per stringere un nuovo rapporto d'amicizia. 😃";
 
-/************************* EQUIPAGGIAMENTO PERSONALE ************************************/
-var MY_EQUIPMENT = "EQUIPAGGIAMENTO PERSONALE";
+/************************* SKILLS ************************************/
+var FRAMEWORK = "Ho una conoscenza approfondita di PHP, Java, Javascript. Ho lavorato con framework come <b>Laravel</b>, <b>Slim</b>, <b>Spring</b> e <b>Angularjs</b>.<br> " +
+    "A scopo personale ho usato anche <b>NodeJs</b> e <b>ReactJs</b>.";
+var MOBILE = "Ho realizzato delle app sempre per scopo personale o per esami universitari. Le applicazioni che ho realizzato sono native per android altre invece ibride usando <b>ionic2</b>.";
+var WORDPRESS = "Ho portato a termine piccoli progetti con <b>wordpress</b>, come blog oppure siti vetrina. Raramente ho usato altri cms per&ograve; al livello teorico conosco le differenze.";
 var JETBRAINS = "Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, ho avuto la fortuna di provare i loro prodotti e ora non posso pi&ugrave; farne a meno."+
                 "I miei preferiti sono <b>PhpStorm</b>, <b>IntelliJ Idea</b> ed <b>Android Studio</b>.";
 var GIT = "Ogni mio progetto inizia con il comando: <code>git init</code>. Utilizzo git da linea di comando e la sua interfaccia web <b>github</b>.";
-var LINUX = "Sono ormai pi&ugrave; di quattro anni che sono passato nel magico mondo del pinguino 🐧 abbandonando\n" +
-            "windows. Mi diverto a provare le varie distro Linux, ma lavoro completamente con <b>Ubuntu</b> mentre le altre mi diverto a sperimentarle.";
 
 /************************* WORK EXPERIENCE ************************************/
 var WORK_EXPERIENCE = "<i class=\"fa fa-suitcase\"> </i>&nbsp;Esperienze Lavorative";

@@ -1079,3 +1079,11 @@ table#personalEquipment tbody tr td p {
   color: inherit;
   margin: 0px;
 }
+
+.normal-font-size {
+  font-size: 17px;
+}
+
+.justify {
+  text-align: justify;
+}
