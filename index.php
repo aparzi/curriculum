@@ -23,33 +23,6 @@
                                 <h2>Angelo Parziale</h2>
                                 <span>Web/Mobile Developer</span>
                                 <p id="introduction"></p>
-                                <h5 id="title_equipment" style="color: #8a8a8b;"><b><i style="margin-right: 15px;" class="fa fa-user" aria-hidden="true"></i><?php echo MY_EQUIPMENT?></b></h5>
-                                <div class="responsive">
-                                <table id="personalEquipment" class="table">
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            <img src="assets/images/kit/jet_brains_logo.png" alt="JetBrains Logo">
-                                            <p style="padding-top: 0;" id="descr_jetbrains"></p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="assets/images/kit/github.png" alt="Git Logo">
-                                            <p id="descr_git"></p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img style="padding-top: 15px;" src="assets/images/kit/linux.png" alt="Linux Logo">
-                                            <p id="descr_linux"></p>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                                </div>
-
-                                <a href="resource/cv.pdf" download="" class="btn waves-effect">Download CV</a>
                                 <a href="#contact-form" class="btn btn-success waves-effect">Contact Me</a>
                             </div>
                         </div>
@@ -67,84 +40,64 @@
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
                         <h2> <i class="fa fa-gears"></i>Skills</h2>
                     </div>
-                    <div class="skill-line z-depth-1">
-                        <div class="row">
-                            <h3 id="programming_language" style="text-align: center;"></h3>
-                            <div class="skill-bar col m6 s6 wow fadeIn a1"  data-wow-delay="0.1s">
-                                <span>PHP/MySQL</span>
-                                <div class="progress">
-                                    <div class="determinate"> 100% </div>
+                    <div class="skill-line z-depth-1" style="background: #fff;">
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- FRAMEWORK -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/framework.png" alt="logo framework" class="circle">-->
                                 </div>
-
-                                <span>HTML5</span>
-                                <div class="progress">
-                                    <div class="determinate"> 100%</div>
-                                </div>
-
-                                <span>CSS3/LESS</span>
-                                <div class="progress">
-                                    <div class="determinate">100%</div>
-                                </div>
-
-                                <span>JQUERY</span>
-                                <div class="progress">
-                                    <div class="determinate">100%</div>
-                                </div>
-
-                                <span>AJAX</span>
-                                <div class="progress">
-                                    <div class="determinate"> 100%</div>
-                                </div>
-                            </div>
-                            <div class="skill-bar col m6 s6 wow fadeIn a2" data-wow-delay="0.2s">
-                                <span>SLIM</span>
-                                <div class="progress">
-                                    <div class="determinate"> 100%</div>
-                                </div>
-
-                                <span>LARAVEL</span>
-                                <div class="progress">
-                                    <div class="determinate">90%</div>
-                                </div>
-
-                                <span>REACTJS</span>
-                                <div class="progress">
-                                    <div class="determinate"> 90% </div>
-                                </div>
-
-                                <span>ANGULAR.JS</span>
-                                <div class="progress">
-                                    <div class="determinate">90%</div>
-                                </div>
-
-                                <span>SPRING BOOT</span>
-                                <div class="progress">
-                                    <div class="determinate">65%</div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">Framework</span></b>
+                                    <p class="black-text justify" id="descr_framework"></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <h3 style="text-align: center;">Content Management System </h3>
-                            <div class="skill-bar col m6 s6 wow fadeIn a1"  data-wow-delay="0.1s">
-                                <span>WORDPRESS</span>
-                                <div class="progress">
-                                    <div class="determinate"> 90% </div>
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- MOBILE -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/mobile.png" alt="logo mobile" class="circle">-->
                                 </div>
-
-                                <span>JOOMLA</span>
-                                <div class="progress">
-                                    <div class="determinate"> 90%</div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">App Mobile</span></b>
+                                    <p class="black-text justify" id="descr_app_mobile"></p>
                                 </div>
                             </div>
-                            <div class="skill-bar col m6 s6 wow fadeIn a2" data-wow-delay="0.2s">
-                                <span>MAGENTO</span>
-                                <div class="progress">
-                                    <div class="determinate"> 75% </div>
+                        </div>
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- WORDPRESS -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/wp.png" alt="logo wordpress" class="circle">-->
                                 </div>
-
-                                <span>PRESTASHOP</span>
-                                <div class="progress">
-                                    <div class="determinate"> 70%</div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">Wordpress</span></b>
+                                    <p class="black-text justify" id="descr_wordpress"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- GIT -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/github.png" alt="logo git" class="circle">-->
+                                </div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">Git</span></b>
+                                    <p class="black-text justify" id="descr_git"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- JETBRAINS -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/jetbrains.png" alt="logo Jetbrains" class="circle">-->
+                                </div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">IDE principale</span></b>
+                                    <p class="black-text justify" id="descr_jetbrains"></p>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +168,7 @@
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
                                 <a href="http://saner.unimol.it/" target="_blank">
                                     <h2 id="title_saner_2018"></h2></a>
-                                <span> 2016 - 2017 </span>
+                                <span> 2016 - 2018 </span>
                                 <p id="description_saner_2018"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
@@ -351,7 +304,7 @@
                             <ul class="z-depth-1"> <!-- interetsr icon start -->
                                 <a href='https://www.facebook.com/angelo.m.parziale' target='_blank'><li><i class="fa fa-facebook-official tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Facebook"></i></li></a>
                                 <a href='https://www.linkedin.com/in/angelo-parziale-2470b311a/' target='_blank'><li><i class="fa fa-linkedin tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Linkedin"></i></li></a>
-                                <a href='https://plus.google.com/u/0/113273722236358246887' target='_blank'><li><i class="fa fa-google tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Google"></i></li></a>
+                                <a href='https://github.com/aparzi' target='_blank'><li><i class="fa fa-github tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Github"></i></li></a>
                             </ul> <!-- interetsr icon end -->
                         </div>
                     </div>

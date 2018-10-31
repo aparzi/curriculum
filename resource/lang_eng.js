@@ -5,17 +5,18 @@ var EDUCATION = 'education'
 var CONTACT_ME = 'contact'
 
 /************************** INTRODUZIONE ********************************/
-var INTRODUCTION = "My name is Angelo Parziale and I'm a web and mobile developer. As for web work development work as a front-end, using javascript stack technology,"+
-                    "which back-end, in this case I use a lot of php framework or php object-oriented, in some cases I also used javascript server side (Nodejs)."+
-                    "For mobile worlds, I develop native apps using the ionic2 framework but also native apps developing in android."+
-                    "About my character that to say ... I'm a guy who loves to relate to people so you can contact me not only for work issues but also to build a new relationship of friendship. 😃";
+var INTRODUCTION = "My name is Angelo Parziale and then I study computer science at the University of Molise (Italy)"+
+                    "I work at <a target='_blank' href='http://xeos.it/'>Xeos.it</a> as a software developer, I have a strong passion for the web and the mobile world." +
+                    "About my person that to say, I'm a guy who loves to relate to people, you can contact me not only for work issues but also to build a new relationship of friendship. 😃";
 
-/************************* EQUIPAGGIAMENTO PERSONALE ************************************/
-var MY_EQUIPMENT = "PERSONAL EQUIPMENT"
+/************************* SKILLS ************************************/
+var FRAMEWORK = "I have a thorough knowledge of PHP, Java, Javascript. I worked with frameworks like <b>Laravel</b>, <b>Slim</b>, <b>Spring</b> and <b>Angularjs</b>. <br>" +
+    "For personal use I have also used <b>NodeJs</b> and <b>ReactJs</b>.";
+var MOBILE = "I've made apps for personal purposes or for university exams. <br>The applications I've created are native to android, others are hybrid using <b>ionic2</b>.";
+var WORDPRESS = "I completed small projects with wordpress, such as blogs or showcase sites. I rarely used other cms but at the theoretical level I know the differences.";
 var JETBRAINS = "As a development environment (IDE) I use only JetBrains products, I was fortunate to use their products and I can't longer do without."+
                 "My favorites are <b>PhpStorm</b>, <b>IntelliJ Idea</b> and <b>Android Studio</b>.";
 var GIT = "Each of my projects begins with the command: <code>git init</code>. I use git from command line and its <b>github</b> web interface.";
-var LINUX = "For four years now I use only the Linux operating system 🐧, I work with the <b>Ubuntu</b> distro. In my free time I enjoy testing all the other Linux distributions.";
 
 /************************* WORK EXPERIENCE ************************************/
 var WORK_EXPERIENCE = "<i class=\"fa fa-suitcase\"> </i>&nbsp;Work Experience";
