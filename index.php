@@ -45,7 +45,7 @@
                             <!-- FRAMEWORK -->
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/framework.png" alt="logo framework" class="circle">-->
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/framework.png" alt="logo framework" class="circle">
                                 </div>
                                 <div class="col-md-offset-1 col-md-10">
                                     <b><span class="title black-text normal-font-size">Framework</span></b>
@@ -54,10 +54,22 @@
                             </div>
                         </div>
                         <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
+                            <!-- FRAMEWORK -->
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/database.png" alt="logo database" class="circle">
+                                </div>
+                                <div class="col-md-offset-1 col-md-10">
+                                    <b><span class="title black-text normal-font-size">Database</span></b>
+                                    <p class="black-text justify" id="descr_database"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection" style="border: none; border-bottom: 1px solid #e0e0e0;">
                             <!-- MOBILE -->
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/mobile.png" alt="logo mobile" class="circle">-->
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/mobile.png" alt="logo mobile" class="circle">
                                 </div>
                                 <div class="col-md-offset-1 col-md-10">
                                     <b><span class="title black-text normal-font-size">App Mobile</span></b>
@@ -69,7 +81,7 @@
                             <!-- WORDPRESS -->
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/wp.png" alt="logo wordpress" class="circle">-->
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/wp.png" alt="logo wordpress" class="circle">
                                 </div>
                                 <div class="col-md-offset-1 col-md-10">
                                     <b><span class="title black-text normal-font-size">Wordpress</span></b>
@@ -81,7 +93,7 @@
                             <!-- GIT -->
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/github.png" alt="logo git" class="circle">-->
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/github.png" alt="logo git" class="circle">
                                 </div>
                                 <div class="col-md-offset-1 col-md-10">
                                     <b><span class="title black-text normal-font-size">Git</span></b>
@@ -93,7 +105,7 @@
                             <!-- JETBRAINS -->
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/jetbrains.png" alt="logo Jetbrains" class="circle">-->
+                                    <img style="width: 80px; height: 80px; left: 0;" src="assets/images/skills/jetbrains.png" alt="logo Jetbrains" class="circle">
                                 </div>
                                 <div class="col-md-offset-1 col-md-10">
                                     <b><span class="title black-text normal-font-size">IDE principale</span></b>
@@ -117,27 +129,24 @@
                         <h2 id="title_work_experience"></h2>
                     </div>
                     <div id="cd-timeline" class="cd-container">
-                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+
+                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.4s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="https://telegram.me/ricormindbot" target="_blank">
-                                    <h2 id="title_xeos">
-                                        <!--<img style="margin-top: -7px;" src="assets/images/projects/ricormind.png" width="32" height="32" alt="logo ricormind" />-->
-                                    </h2></a>
-                                <span>2017 - </span><span class="non_terminato"></span>
-                                <p id="description_xeos"></p>
+                                <h2 id="title_democom"></h2>
+                                <span> 2019 - </span><span class="non_terminato"></span>
+                                <p id="description_democom"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
                         <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
-
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a target="_blank" href="https://myunimol.it/Login.jsp"><h2 id="title_app_unimol"></h2></a>
-                                <span>2017 - </span><span class="non_terminato"></span>
-                                <p id="description_app_unimol"></p>
+                                <a><h2 id="title_xeos"></h2></a>
+                                <span>2017 - 2019</span>
+                                <p id="description_xeos"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -148,6 +157,17 @@
                                 <a target="_blank" href="https://datasound.it/"><h2 id="title_datasounds"></h2></a>
                                 <span> 2016 - 2017 </span>
                                 <p id="description_datasounds"></p>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+
+                        <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                            <div class="cd-timeline-img">
+                            </div> <!-- cd-timeline-img -->
+
+                            <div class="cd-timeline-content col m5 s12 z-depth-1">
+                                <a target="_blank" href="https://myunimol.it/Login.jsp"><h2 id="title_app_unimol"></h2></a>
+                                <span>2016 - 2017</span>
+                                <p id="description_app_unimol"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -189,7 +209,7 @@
                     </div>
                     <center>
                         <blockquote class="instagram-media" data-instgrm-captioned
-                                    data-instgrm-permalink="https://www.instagram.com/p/BYwOaYaHDtO/"
+                                    data-instgrm-permalink="https://www.instagram.com/p/B3RZbwMoQQM/"
                                     data-instgrm-version="8"
                                     style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto !important; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                             <div style="padding:8px;">
@@ -226,6 +246,17 @@
                     </div>
 
                     <div class="cd-container" id="ed-timeline">
+
+                        <div class="cd-timeline-block wow fadeIn a1" data-wow-delay="0.2s">
+                            <div class="cd-timeline-img">
+                            </div> <!-- cd-timeline-img -->
+                            <div class="cd-timeline-content col m5 s12 z-depth-1">
+                                <h2 id="title_landing-page"></h2>
+                                <span> 2018 </span>
+                                <p id="description_landing-page"></p>
+                            </div> <!-- cd-timeline-content -->
+                        </div> <!-- cd-timeline-block -->
+
                         <div class="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
@@ -269,31 +300,31 @@
                     <div class="section-title wow fadeIn a1" data-wow-delay="0.1s">
                         <h2 id="title_contact"> <i class="fa fa-send"></i></h2>
                     </div>
-                    <div class="contact-form z-depth-1" id="contact">
-                        <div class="row">
-                            <form id="contactForm" data-toggle="validator">
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="input-field col m6 s12 wow fadeIn a2" data-wow-delay="0.2s">
-                                    <label for="name" class="h4">Full Name *</label>
-                                    <input type="text" onblur="controlField('name')" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">
-                                </div>
-                                <div class="input-field col m6 s12 wow fadeIn a4" data-wow-delay="0.4s">
-                                    <label for="email" class="h4">Email *</label>
-                                    <input type="email" onblur="controlField('email')" class="form-control validate" id="email"  required>
-                                </div>
-                                <div class="input-field col m12 s12 wow fadeIn a3" data-wow-delay="0.3s">
-                                    <label for="last_name" class="h4">Subject *</label>
-                                    <input type="text" onblur="controlField('subject')" class="form-control validate" id="subject" required>
-                                </div>
-                                <div class="input-field col m12 s12 wow fadeIn a6" data-wow-delay="0.6s">
-                                    <label for="message" class="h4 ">Message *</label>
-                                    <textarea id="message" onblur="controlField('message')" class="form-control materialize-textarea validate" required></textarea>
-                                </div>
-                                <button type="button" id="form-submit" class="btn btn-success waves-effect wow fadeIn a7" data-wow-delay="0.7s" onclick="sendEMail()">Submit</button>
-
-                            </form>
-                        </div>
-                    </div>
+<!--                    <div class="contact-form z-depth-1" id="contact">-->
+<!--                        <div class="row">-->
+<!--                            <form id="contactForm" data-toggle="validator">-->
+<!--                                <div id="msgSubmit" class="h3 text-center hidden"></div>-->
+<!--                                <div class="input-field col m6 s12 wow fadeIn a2" data-wow-delay="0.2s">-->
+<!--                                    <label for="name" class="h4">Full Name *</label>-->
+<!--                                    <input type="text" onblur="controlField('name')" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">-->
+<!--                                </div>-->
+<!--                                <div class="input-field col m6 s12 wow fadeIn a4" data-wow-delay="0.4s">-->
+<!--                                    <label for="email" class="h4">Email *</label>-->
+<!--                                    <input type="email" onblur="controlField('email')" class="form-control validate" id="email"  required>-->
+<!--                                </div>-->
+<!--                                <div class="input-field col m12 s12 wow fadeIn a3" data-wow-delay="0.3s">-->
+<!--                                    <label for="last_name" class="h4">Subject *</label>-->
+<!--                                    <input type="text" onblur="controlField('subject')" class="form-control validate" id="subject" required>-->
+<!--                                </div>-->
+<!--                                <div class="input-field col m12 s12 wow fadeIn a6" data-wow-delay="0.6s">-->
+<!--                                    <label for="message" class="h4 ">Message *</label>-->
+<!--                                    <textarea id="message" onblur="controlField('message')" class="form-control materialize-textarea validate" required></textarea>-->
+<!--                                </div>-->
+<!--                                <button type="button" id="form-submit" class="btn btn-success waves-effect wow fadeIn a7" data-wow-delay="0.7s" onclick="sendEMail()">Submit</button>-->
+<!---->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
                     <!-- =========================================
                             INTEREST
@@ -302,9 +333,10 @@
                     <div class="interests col s12 m12 l12 wow fadeIn" data-wow-delay="0.1s">
                         <div class="row">
                             <ul class="z-depth-1"> <!-- interetsr icon start -->
-                                <a href='https://www.facebook.com/angelo.m.parziale' target='_blank'><li><i class="fa fa-facebook-official tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Facebook"></i></li></a>
-                                <a href='https://www.linkedin.com/in/angelo-parziale-2470b311a/' target='_blank'><li><i class="fa fa-linkedin tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Linkedin"></i></li></a>
-                                <a href='https://github.com/aparzi' target='_blank'><li><i class="fa fa-github tooltipped col m4 s6" data-position="top" data-delay="50" data-tooltip="Github"></i></li></a>
+                                <a href='mailto:angeloparziale94@gmail.com'><li><i class="fa fa-envelope tooltipped col m3 s6" data-position="top" data-delay="50" data-tooltip="Gmail"></i></li></a>
+                                <a href='https://www.facebook.com/angelo.m.parziale' target='_blank'><li><i class="fa fa-facebook-official tooltipped col m3 s6" data-position="top" data-delay="50" data-tooltip="Facebook"></i></li></a>
+                                <a href='https://www.linkedin.com/in/angelo-parziale-2470b311a/' target='_blank'><li><i class="fa fa-linkedin tooltipped col m3 s6" data-position="top" data-delay="50" data-tooltip="Linkedin"></i></li></a>
+                                <a href='https://github.com/aparzi' target='_blank'><li><i class="fa fa-github tooltipped col m3 s6" data-position="top" data-delay="50" data-tooltip="Github"></i></li></a>
                             </ul> <!-- interetsr icon end -->
                         </div>
                     </div>

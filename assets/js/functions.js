@@ -82,16 +82,19 @@ function setEnglish() {
     $("#descr_wordpress").html(WORDPRESS);
     $("#descr_git").html(GIT);
     $("#descr_jetbrains").html(JETBRAINS);
+    $("#descr_database").html(DATABASE);
 
     //EXPERIENCE
     $("#title_work_experience").html(WORK_EXPERIENCE);
     $("#title_contact").html(CONTACT);
     $("#programming_language").html(PROGRAMMING_LANGUAGE);
     $("#title_app_unimol").html(TITLE_APP_UNIMOL);
+    $("#title_democom").html(TITLE_DEMOCOM);
     $("#title_xeos").html(TITLE_XEOS);
     $("#title_datasounds").html(TITLE_DATASOUNDS);
     $("#title_grs_2017").html(TITLE_GRS_2017);
     $("#title_saner_2018").html(TITLE_SANER_2018);
+    $("#description_democom").html(DESCRIPTION_DEMOCOM);
     $("#description_xeos").html(DESCRIPTION_XEOS);
     $("#description_app_unimol").html(DESCRIPTION_APP_UNIMOL);
     $("#description_grs_2017").html(DESCRIPTION_GRS);
@@ -106,8 +109,9 @@ function setEnglish() {
     $("#title_certificate").html(TITLE_CERTIFICATE);
     $("#description_certificate").html(DESCRIPTION_CERTIFICATE);
     $("#title_university").html(TITLE_UNIVERSITY);
-    $("#description_university").html(DESCRIPTION_UNIVERSITY)
-
+    $("#description_university").html(DESCRIPTION_UNIVERSITY);
+    $("#title_landing-page").html(TITLE_LANDING_PAGE);
+    $("#description_landing-page").html(DESCRIPTION_LANDING_PAGE);
 }
 
 function setItalian() {
@@ -126,16 +130,19 @@ function setItalian() {
     $("#descr_wordpress").html(WORDPRESS);
     $("#descr_git").html(GIT);
     $("#descr_jetbrains").html(JETBRAINS);
+    $("#descr_database").html(DATABASE);
 
     //EXPERIENCE
     $("#title_work_experience").html(WORK_EXPERIENCE);
     $("#title_contact").html(CONTACT);
     $("#programming_language").html(PROGRAMMING_LANGUAGE);
     $("#title_app_unimol").html(TITLE_APP_UNIMOL);
+    $("#title_democom").html(TITLE_DEMOCOM);
     $("#title_xeos").html(TITLE_XEOS);
     $("#title_datasounds").html(TITLE_DATASOUNDS);
     $("#title_grs_2017").html(TITLE_GRS_2017);
     $("#title_saner_2018").html(TITLE_SANER_2018);
+    $("#description_democom").html(DESCRIPTION_DEMOCOM);
     $("#description_xeos").html(DESCRIPTION_XEOS);
     $("#description_app_unimol").html(DESCRIPTION_APP_UNIMOL);
     $("#description_grs_2017").html(DESCRIPTION_GRS);
@@ -150,6 +157,8 @@ function setItalian() {
     $("#title_certificate").html(TITLE_CERTIFICATE);
     $("#description_certificate").html(DESCRIPTION_CERTIFICATE);
     $("#title_university").html(TITLE_UNIVERSITY);
-    $("#description_university").html(DESCRIPTION_UNIVERSITY)
+    $("#description_university").html(DESCRIPTION_UNIVERSITY);
+    $("#title_landing-page").html(TITLE_LANDING_PAGE);
+    $("#description_landing-page").html(DESCRIPTION_LANDING_PAGE);
 }
 

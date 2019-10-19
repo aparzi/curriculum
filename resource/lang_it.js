@@ -4,18 +4,19 @@ var WORKS = 'lavori'
 var EDUCATION = 'istruzione'
 var CONTACT_ME = 'contatti'
 
-var INTRODUCTION = "Mi chiamo Angelo Parziale e attualmente studio informatica all'Università degli studi del Molise (Italia), "+
-                    "lavoro alla <a target='_blank' href='http://xeos.it/'>Xeos.it</a> come sviluppatore software, ho una forte passione per il web e per il mondo mobile. " +
-                    "Per quanto riguarda la mia persona che dire, sono uno che ama relazionarsi e metters in gioco, quindi potete contattarmi non solo per questioni lavorative"+
+var INTRODUCTION = "Mi chiamo Angelo Parziale e sono uno sviluppatore software, in azienda infatti, ricopro il ruolo di full-stack Developer. "+
+                    "Ho una forte passione per il web e per il mondo mobile, difatti mi piace specializzarmi con tecnolegie che riguardano questi ambiti. " +
+                    "Fuori dal contesto lavorativo invece, gioco a calcetto con gli amici, seguo il calcio e la formula 1. Quindi, potete contattarmi non solo per questioni lavorative "+
                     "ma anche per stringere un nuovo rapporto d'amicizia. 😃";
 
 /************************* SKILLS ************************************/
-var FRAMEWORK = "Ho una conoscenza approfondita di PHP, Java, Javascript. Ho lavorato con framework come <b>Laravel</b>, <b>Slim</b>, <b>Spring</b> e <b>Angularjs</b>.<br> " +
+var FRAMEWORK = "Ho una conoscenza approfondita di PHP, Java, Javascript. Ho lavorato e lavoro con framework come <b>Laravel</b>, <b>Slim</b>, <b>Spring</b> / <b>Spring boot</b>. Invece, per il frontend conosco <b>Angular 2+</b>, <b>Angularjs</b>. " +
     "A scopo personale ho usato anche <b>NodeJs</b> e <b>ReactJs</b>.";
-var MOBILE = "Ho realizzato delle app sempre per scopo personale o per esami universitari. Le applicazioni che ho realizzato sono native per android altre invece ibride usando <b>ionic2</b>.";
+var DATABASE = "Spesso lavoro ed ho una buona conoscenza dei database relazionali, tra i quali: <b>Oracle</b>, <b>SqlServer</b>, <b>PhpMyAdmin</b>. Invece, per quanto riguarda quelli non relazionali utilizzo <b>MongoDB</b> con l'interfaccia grafica Robo3T.";
+var MOBILE = "Ho realizzato delle app per scopo personale o per esami universitari. Le applicazioni che ho realizzato sono native per android altre invece ibride usando <b>Ionic</b> e in linea teorica ho visto anche <b>React Native</b>.";
 var WORDPRESS = "Ho portato a termine piccoli progetti con <b>wordpress</b>, come blog oppure siti vetrina. Raramente ho usato altri cms per&ograve; al livello teorico conosco le differenze.";
 var JETBRAINS = "Utilizzo come <b>IDE</b> solo prodotti dell' azienda JetBrains, ho avuto la fortuna di provare i loro prodotti e ora non posso pi&ugrave; farne a meno."+
-                "I miei preferiti sono <b>PhpStorm</b>, <b>IntelliJ Idea</b> ed <b>Android Studio</b>.";
+                "I miei preferiti sono <b>PhpStorm</b>, <b>WebStorm</b>, <b>IntelliJ Idea</b> ed <b>Android Studio</b>.";
 var GIT = "Ogni mio progetto inizia con il comando: <code>git init</code>. Utilizzo git da linea di comando e la sua interfaccia web <b>github</b>.";
 
 /************************* WORK EXPERIENCE ************************************/
@@ -23,14 +24,16 @@ var WORK_EXPERIENCE = "<i class=\"fa fa-suitcase\"> </i>&nbsp;Esperienze Lavorat
 var CONTACT = "<i class=\"fa fa-send\"></i>&nbsp;Contattami";
 var PROGRAMMING_LANGUAGE = "Linguaggi &amp; Framework";
 
+var TITLE_DEMOCOM = "<a target='_blank' href='http://www.democom.it/'><span class='custom-span' style='color: #107E81;'>Demo</span><span class='custom-span' style='color: #000;'>com</span><img style=\"margin-top: -14px;\" src=\"assets/images/projects/democom.png\" width=\"32\" height=\"32\" alt=\"logo democom\" /></a>";
 var TITLE_XEOS = "<a target='_blank' href='http://xeos.it/'><span class='custom-span' style='color: #000;'>Xe</span><span class='custom-span' style='color: #ff0000'>os</span></a>";
 var TITLE_APP_UNIMOL = "<img style=\"margin-top: -7px;\" src=\"assets/images/projects/myunimol.png\" width=\"32\" height=\"32\" alt=\"logo myUnimol\" />&nbsp;MyUnimol";
 var TITLE_DATASOUNDS = "Datasounds&nbsp;<img style=\"margin-top: -14px;\" src=\"assets/images/projects/datasounds.png\" width=\"32\" height=\"32\" alt=\"logo myUnimol\" />";
 var TITLE_GRS_2017 = "<img style=\"margin-top: -7px;\" src=\"assets/images/projects/unimol.png\" width=\"32\" height=\"32\" alt=\"logo unimol\" />&nbsp;Grs 2017";
 var TITLE_SANER_2018 = "SANER 2018&nbsp;<img style=\"margin-top: -7px;\" src=\"assets/images/projects/logoSaner.png\" width=\"32\" height=\"32\" alt=\"logo saner\" />";
 
-var DESCRIPTION_XEOS = "Collaboro da remoto con <a style='color: red;' target='_blank' href='http://xeos.it'>Xeos.it</a> come Software developer. In azienda mi occupo di realizzare servizi Rest oppure servizi Soap, oltre alla fase di realizzazione mi occupo anche della fase di testing."+
-                       "Come linguaggio di programmazione usiamo Java8 insieme al framework Spring boot e per il gestore di dipendenze Maven.";
+var DESCRIPTION_DEMOCOM = "Attualmente lavoro presso Democom ricoprendo la posizione di full-stack developer.";
+var DESCRIPTION_XEOS = "Ho lavorato per due anni in <a style='color: red;' target='_blank' href='http://xeos.it'>Xeos.it</a> come full-stack developer. In azienda mi sono occupato di realizzare applicativi web (client-server), partendo dal definire il database fino alla parte di sviluppo." +
+    " Le tecnologie utilizzate principalmente sono state Angular e AngularJS per il frontend mentre per il backend Java 8 con il framework Spring oppure Spring boot.";
 var DESCRIPTION_APP_UNIMOL = "Insieme ad un team di amici e colleghi, sto seguendo lo sviluppo e la manutenzione di <a style='color: red;' href='https://myunimol.it/Login.jsp' target='_blank'>MyUnimol</a>."+
     "Un applicazione per gestire la carriera universitaria di studente presso L'Universit&agrave; degli Studi del Molise."+
     "MyUnimol, disponibile anche per <a style='color: red;' href='https://play.google.com/store/apps/details?id=rocks.teammolise.myunimol' target='_blank'>Android</a> ed <a style='color: red;' href='https://itunes.apple.com/us/app/id1123469490' target='_blank'>iOS</a>.";
@@ -46,3 +49,5 @@ var TITLE_CERTIFICATE = "OPERATORE INFORMATICO";
 var DESCRIPTION_CERTIFICATE = "Conseguimento del certificato in operatore informatico. Durante il corso ho appreso conoscenze su tutto il pacchetto Office di proprietà della Microsoft.";
 var TITLE_UNIVERSITY = "UNIVERSITÀ DEGLI STUDI DEL MOLISE";
 var DESCRIPTION_UNIVERSITY = "Nell'anno 2014 mi sono iscritto all'università degli studi del Molise e attualmente sto continuando il mio percorso di studi in Informatica.";
+var TITLE_LANDING_PAGE = "<a href='https://www.udemy.com/certificate/UC-H803RRCD/' target='_blank'>LANDING PAGE</a>";
+var DESCRIPTION_LANDING_PAGE = "In seguito ad un corso acquistato sulla piattaforma digitale Udemy, ho acquisito la certificazione su come creare una Landing Page, scoprendo soprattutto obiettivi e vantaggi";
