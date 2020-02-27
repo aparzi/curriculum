@@ -49,6 +49,6 @@ var DESCRIPTION_DIPLOMA = "Graduation of the degree in electronic operator at th
 var TITLE_CERTIFICATE = "INFORMATIC OPERATOR";
 var DESCRIPTION_CERTIFICATE = "Completion of certificate in computer operator. During the course I learned advanced knowledge of the entire Microsoft Office suite.";
 var TITLE_UNIVERSITY = "UNIVERSITY OF MOLISE";
-var DESCRIPTION_UNIVERSITY = "In the year 2014 I joined Molise University and currently I'm continuing my IT course.";
+var DESCRIPTION_UNIVERSITY = "In 2014 I enrolled in the faculty of Computer Science, at the University of Molise, concluding the course of studies in 2020.";
 var TITLE_LANDING_PAGE = "<a href='https://www.udemy.com/certificate/UC-H803RRCD/' target='_blank'>LANDING PAGE</a>";
 var DESCRIPTION_LANDING_PAGE = "Following a course purchased on the Udemy digital platform, I acquired the certification on how to create a Landing Page, discovering above all the aims and advantages.";

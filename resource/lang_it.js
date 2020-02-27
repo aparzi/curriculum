@@ -48,6 +48,6 @@ var DESCRIPTION_DIPLOMA = "Conseguimento del diploma in operatore elettronico, p
 var TITLE_CERTIFICATE = "OPERATORE INFORMATICO";
 var DESCRIPTION_CERTIFICATE = "Conseguimento del certificato in operatore informatico. Durante il corso ho appreso conoscenze su tutto il pacchetto Office di proprietà della Microsoft.";
 var TITLE_UNIVERSITY = "UNIVERSITÀ DEGLI STUDI DEL MOLISE";
-var DESCRIPTION_UNIVERSITY = "Nell'anno 2014 mi sono iscritto all'università degli studi del Molise e attualmente sto continuando il mio percorso di studi in Informatica.";
+var DESCRIPTION_UNIVERSITY = "Nell'anno 2014 mi sono iscritto alla facoltà triennale di Informatica, all'università degli studi del Molise, concludendo il percorso degli studi nel 2020.";
 var TITLE_LANDING_PAGE = "<a href='https://www.udemy.com/certificate/UC-H803RRCD/' target='_blank'>LANDING PAGE</a>";
 var DESCRIPTION_LANDING_PAGE = "In seguito ad un corso acquistato sulla piattaforma digitale Udemy, ho acquisito la certificazione su come creare una Landing Page, scoprendo soprattutto obiettivi e vantaggi";

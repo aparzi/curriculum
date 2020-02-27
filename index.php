@@ -251,9 +251,9 @@
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <h2 id="title_landing-page"></h2>
-                                <span> 2018 </span>
-                                <p id="description_landing-page"></p>
+                                <a href="http://www.unimol.it/" target="_blank"><h2 id="title_university"></h2></a>
+                                <span> 2014 - 2020 </span>
+                                <p id="description_university"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
 
@@ -261,9 +261,9 @@
                             <div class="cd-timeline-img">
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content col m5 s12 z-depth-1">
-                                <a href="http://www.unimol.it/" target="_blank"><h2 id="title_university"></h2></a>
-                                <span> 2014 - </span><span class="non_terminato"></span>
-                                <p id="description_university"></p>
+                                <h2 id="title_landing-page"></h2>
+                                <span> 2018 </span>
+                                <p id="description_landing-page"></p>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
                         <div class="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
